@@ -172,7 +172,7 @@ export default function ProblemView({ problem, owner, repo }) {
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="border-b border-dark-border/50 p-4 md:p-6 flex flex-col md:flex-row md:justify-between md:items-start gap-4 bg-dark-card/80 backdrop-blur-xl sticky top-0 z-20 shadow-lg"
+        className="border-b border-dark-border/50 p-4 pl-16 lg:pl-6 lg:p-6 flex flex-col md:flex-row md:justify-between md:items-start gap-4 bg-dark-card/80 backdrop-blur-xl sticky top-0 z-20 shadow-lg"
       >
         <div className="flex-1">
           <div className="flex items-center flex-wrap gap-2 md:gap-3 mb-2">
