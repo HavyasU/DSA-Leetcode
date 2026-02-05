@@ -28,12 +28,12 @@ export default function App() {
       {!sidebarOpen && (
         <button
           onClick={() => setSidebarOpen(true)}
-          className="fixed top-4 left-4 z-50 lg:hidden bg-dark-card/50 backdrop-blur-md border border-dark-border/50 rounded-xl p-3 shadow-xl hover:bg-dark-card/70 hover:border-brand-blue/50 transition-all hover:scale-105 group"
+          className="fixed top-4 left-4 z-50 lg:hidden p-2 rounded-lg hover:bg-white/10 transition-colors group"
           aria-label="Open menu"
         >
           <Menu
-            size={20}
-            className="text-dark-muted group-hover:text-brand-blue transition-colors"
+            size={24}
+            className="text-white/70 group-hover:text-white transition-colors"
           />
         </button>
       )}
