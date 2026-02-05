@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import {
   Search,
   FolderGit2,
@@ -22,6 +22,8 @@ export default function Sidebar({
   onClose,
 }) {
   const [stats, setStats] = useState(null);
+  const [page, setPage] = useState(1);
+  const ITEMS_PER_PAGE = 30;
 
   const USERNAME = "havyasu2005";
 
@@ -29,11 +31,32 @@ export default function Sidebar({
     fetchUserStats(USERNAME).then(setStats);
   }, []);
 
-  const filtered = problems.filter(
-    (p) =>
-      p.title.toLowerCase().includes(search.toLowerCase()) ||
-      p.id.includes(search),
+  // Reset page on search change
+  useEffect(() => {
+    setPage(1);
+  }, [search]);
+
+  const filtered = useMemo(
+    () =>
+      problems.filter(
+        (p) =>
+          p.title.toLowerCase().includes(search.toLowerCase()) ||
+          p.id.includes(search),
+      ),
+    [problems, search],
   );
+
+  const visible = filtered.slice(0, page * ITEMS_PER_PAGE);
+
+  const handleScroll = (e) => {
+    const { scrollTop, clientHeight, scrollHeight } = e.currentTarget;
+    // Load more when near bottom
+    if (scrollHeight - scrollTop <= clientHeight + 100) {
+      if (visible.length < filtered.length) {
+        setPage((prev) => prev + 1);
+      }
+    }
+  };
 
   return (
     <motion.div
@@ -135,7 +158,10 @@ export default function Sidebar({
       </div>
 
       {/* Problem List */}
-      <div className="flex-1 overflow-y-auto px-2 py-3 space-y-1 custom-scrollbar">
+      <div
+        className="flex-1 overflow-y-auto px-2 py-3 space-y-1 custom-scrollbar"
+        onScroll={handleScroll}
+      >
         {loading ? (
           <div className="flex flex-col items-center justify-center p-8 text-dark-muted gap-3">
             <div className="relative">
@@ -153,48 +179,55 @@ export default function Sidebar({
             <p className="text-dark-muted text-sm">No problems found</p>
           </div>
         ) : (
-          filtered.map((p, idx) => (
-            <motion.button
-              key={p.id}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: idx * 0.02 }}
-              onClick={() => onSelect(p)}
-              className={clsx(
-                "w-full text-left px-3 py-3 rounded-lg text-sm transition-all duration-200 group flex items-center gap-3 relative overflow-hidden",
-                selected?.id === p.id
-                  ? "text-white bg-gradient-to-r from-brand-blue/20 to-brand-purple/10 shadow-lg shadow-brand-blue/10"
-                  : "text-dark-text/80 hover:bg-white/5 hover:text-white hover:shadow-md",
-              )}
-            >
-              {selected?.id === p.id && (
-                <motion.div
-                  layoutId="active-indicator"
-                  className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-brand-blue to-brand-purple rounded-r"
-                />
-              )}
-              <span
+          <>
+            {visible.map((p, idx) => (
+              <motion.button
+                key={p.id}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: Math.min(idx * 0.02, 0.3) }} // Cap delay
+                onClick={() => onSelect(p)}
                 className={clsx(
-                  "font-mono text-[10px] min-w-[32px] text-center px-1.5 py-1 rounded-md border font-bold transition-all",
+                  "w-full text-left px-3 py-3 rounded-lg text-sm transition-all duration-200 group flex items-center gap-3 relative overflow-hidden",
                   selected?.id === p.id
-                    ? "bg-brand-blue/30 border-brand-blue/50 text-brand-blue shadow-sm shadow-brand-blue/20"
-                    : "bg-dark-bg/50 border-dark-border/50 text-dark-muted group-hover:border-brand-blue/30 group-hover:text-brand-blue/70",
+                    ? "text-white bg-gradient-to-r from-brand-blue/20 to-brand-purple/10 shadow-lg shadow-brand-blue/10"
+                    : "text-dark-text/80 hover:bg-white/5 hover:text-white hover:shadow-md",
                 )}
               >
-                {p.id}
-              </span>
-              <span className="truncate flex-1 font-medium transition-all group-hover:translate-x-0.5">
-                {p.title}
-              </span>
-              {selected?.id === p.id && (
-                <motion.div
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}
-                  className="w-2 h-2 rounded-full bg-brand-blue animate-pulse"
-                />
-              )}
-            </motion.button>
-          ))
+                {selected?.id === p.id && (
+                  <motion.div
+                    layoutId="active-indicator"
+                    className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-brand-blue to-brand-purple rounded-r"
+                  />
+                )}
+                <span
+                  className={clsx(
+                    "font-mono text-[10px] min-w-[32px] text-center px-1.5 py-1 rounded-md border font-bold transition-all",
+                    selected?.id === p.id
+                      ? "bg-brand-blue/30 border-brand-blue/50 text-brand-blue shadow-sm shadow-brand-blue/20"
+                      : "bg-dark-bg/50 border-dark-border/50 text-dark-muted group-hover:border-brand-blue/30 group-hover:text-brand-blue/70",
+                  )}
+                >
+                  {p.id}
+                </span>
+                <span className="truncate flex-1 font-medium transition-all group-hover:translate-x-0.5">
+                  {p.title}
+                </span>
+                {selected?.id === p.id && (
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    className="w-2 h-2 rounded-full bg-brand-blue animate-pulse"
+                  />
+                )}
+              </motion.button>
+            ))}
+            {visible.length < filtered.length && (
+              <div className="py-4 text-center text-xs text-dark-muted animate-pulse">
+                Loading more...
+              </div>
+            )}
+          </>
         )}
       </div>
 
