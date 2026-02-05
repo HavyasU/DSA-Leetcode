@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { fetchProblemDetails } from "../github";
@@ -51,12 +52,10 @@ export default function ProblemView({ problem, owner, repo }) {
             readme.includes("See `Solution.java`")
           ) {
             const slug = folderToSlug(problem.folder);
-            // Note: this fetch might fail due to CORS if not proxied correctly or no session
-            // but we try anyway.
             try {
               const lcData = await fetchProblemContent(slug);
               if (lcData && lcData.content) {
-                readme = `<div class="leetcode-content">${lcData.content}</div>`;
+                readme = lcData.content;
                 fetchedFromLC = true;
               }
             } catch (e) {
@@ -106,8 +105,6 @@ export default function ProblemView({ problem, owner, repo }) {
   };
 
   const openLeetCode = () => {
-    // Try to construct url.
-    // folder: "001-TwoSum" -> "two-sum"
     const slug = folderToSlug(problem.folder);
     window.open(`https://leetcode.com/problems/${slug}/`, "_blank");
   };
@@ -222,48 +219,46 @@ export default function ProblemView({ problem, owner, repo }) {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
                   key="desc"
-                  className="prose prose-invert prose-p:text-dark-text/90 prose-headings:text-white prose-strong:text-brand-blue prose-pre:bg-dark-card prose-pre:border prose-pre:border-dark-border max-w-none"
+                  className="leetcode-content prose prose-invert prose-p:text-dark-text/90 prose-headings:text-white prose-strong:text-brand-blue prose-pre:bg-dark-card prose-pre:border prose-pre:border-dark-border max-w-none"
                 >
-                  {isFetchedFromLeetCode ? (
-                    <div dangerouslySetInnerHTML={{ __html: data.readme }} />
-                  ) : (
-                    <ReactMarkdown
-                      components={{
-                        code({ node, inline, className, children, ...props }) {
-                          const match = /language-(\w+)/.exec(className || "");
-                          return !inline && match ? (
-                            <div className="rounded-lg overflow-hidden border border-dark-border my-6 shadow-xl">
-                              <div className="px-4 py-1.5 bg-dark-card border-b border-dark-border text-xs text-dark-muted font-mono">
-                                {match[1]}
-                              </div>
-                              <SyntaxHighlighter
-                                style={vscDarkPlus}
-                                language={match[1]}
-                                PreTag="div"
-                                customStyle={{
-                                  margin: 0,
-                                  padding: "1rem",
-                                  background: "#0d0d0d",
-                                }}
-                                {...props}
-                              >
-                                {String(children).replace(/\n$/, "")}
-                              </SyntaxHighlighter>
+                  {/* Always use ReactMarkdown with reheypeRaw to support both Markdown and HTML */}
+                  <ReactMarkdown
+                    rehypePlugins={[rehypeRaw]}
+                    components={{
+                      code({ node, inline, className, children, ...props }) {
+                        const match = /language-(\w+)/.exec(className || "");
+                        return !inline && match ? (
+                          <div className="rounded-lg overflow-hidden border border-dark-border my-6 shadow-xl">
+                            <div className="px-4 py-1.5 bg-dark-card border-b border-dark-border text-xs text-dark-muted font-mono">
+                              {match[1]}
                             </div>
-                          ) : (
-                            <code
-                              className={`${className} bg-dark-card border border-dark-border px-1.5 py-0.5 rounded text-sm text-brand-purple font-mono`}
+                            <SyntaxHighlighter
+                              style={vscDarkPlus}
+                              language={match[1]}
+                              PreTag="div"
+                              customStyle={{
+                                margin: 0,
+                                padding: "1rem",
+                                background: "#0d0d0d",
+                              }}
                               {...props}
                             >
-                              {children}
-                            </code>
-                          );
-                        },
-                      }}
-                    >
-                      {data.readme}
-                    </ReactMarkdown>
-                  )}
+                              {String(children).replace(/\n$/, "")}
+                            </SyntaxHighlighter>
+                          </div>
+                        ) : (
+                          <code
+                            className={`${className} bg-dark-card border border-dark-border px-1.5 py-0.5 rounded text-sm text-brand-purple font-mono`}
+                            {...props}
+                          >
+                            {children}
+                          </code>
+                        );
+                      },
+                    }}
+                  >
+                    {data.readme}
+                  </ReactMarkdown>
                 </motion.div>
               )}
 

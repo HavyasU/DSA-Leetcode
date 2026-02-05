@@ -1,9 +1,14 @@
-# Final Value of Variable After Performing Operations
+# Final Valueof Variable After Performing Operations
 
-LeetCode Problem: #2011
+**Status:** Solution code pending
 
-## Solution
-See `Solution.java` for the implementation.
+## Instructions
+This problem folder was created but the solution code has not been added yet.
+To add your solution:
+1. Solve this problem on LeetCode
+2. Copy your accepted solution code
+3. Paste it into `Solution.java` in this folder
+4. Update this README with problem details
 
 ---
-Profile: https://leetcode.com/u/havyasu2005/
+LeetCode Problem
