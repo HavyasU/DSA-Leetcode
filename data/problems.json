@@ -1,0 +1,542 @@
+[
+  {
+    "id": "001",
+    "title": "TwoSum",
+    "path": "001-TwoSum",
+    "code": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement)) {\n                return new int[] { map.get(complement), i };\n            }\n            map.put(nums[i], i);\n        }\n        // Return an empty array if no solution is found\n        return new int[] {};\n    }\n}",
+    "readme": "# 1. Two Sum\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n```\n\n**Example 2:**\n\n```\nInput: nums = [3,2,4], target = 6\nOutput: [1,2]\n```\n\n**Example 3:**\n\n```\nInput: nums = [3,3], target = 6\nOutput: [0,1]\n```\n\n## Constraints\n\n- `2 <= nums.length <= 10^4`\n- `-10^9 <= nums[i] <= 10^9`\n- `-10^9 <= target <= 10^9`\n- Only one valid answer exists.\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/two-sum/)\n\n## Solution Approach\n\nUse a HashMap to store the numbers and their indices as you iterate through the array. For each number, check if the complement (target - current number) exists in the map.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through the array\n- **Space Complexity:** O(n) - HashMap storage\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "002",
+    "title": "AddTwoNumbers",
+    "path": "002-AddTwoNumbers",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Add Two Numbers\n\nLeetCode Problem: #2\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "002",
+    "title": "ValidParentheses",
+    "path": "002-ValidParentheses",
+    "code": "class Solution {\n    public boolean isValid(String s) {\n        Stack<Character> stack = new Stack<>();\n\n        if(s.length() % 2 != 0) return false;\n\n        for(int i=0;i<s.length();i++){\n            Character c = s.charAt(i);\n            Character match = null;\n\n            if(c == '}' || c==']' || c==')'){\n            if(stack.isEmpty()) return false;\n               switch(c){20. Valid Parentheses\n                case '}' : match = '{';break;\n                case ']' : match = '['; break;\n                case ')' : match = '(';break; \n               }\n\n                if(stack.pop() != match){\n                return false;\n               }\n            }else{\n                stack.push(c);\n            }\n        }\n\n        if(stack.size() >=1 ){\n            return false;\n        }\n\n        return true;\n    }\n}",
+    "readme": "# 20. Valid Parentheses\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.\n\nAn input string is valid if:\n\n1. Open brackets must be closed by the same type of brackets.\n2. Open brackets must be closed in the correct order.\n3. Every close bracket has a corresponding open bracket of the same type.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"()\"\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: s = \"()[]{}\"\nOutput: true\n```\n\n**Example 3:**\n\n```\nInput: s = \"(]\"\nOutput: false\n```\n\n## Constraints\n\n- `1 <= s.length <= 10^4`\n- `s` consists of parentheses only `'()[]{}'`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/valid-parentheses/)\n\n## Solution Approach\n\nUse a stack to track opening brackets. When encountering a closing bracket, check if it matches the top of the stack.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through the string\n- **Space Complexity:** O(n) - Stack storage in worst case\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "007",
+    "title": "ReverseInteger",
+    "path": "007-ReverseInteger",
+    "code": "class Solution {\n    public int reverse(int x) {\n        int num = x;\n        int rev = 0;\n        while (num != 0) {\n            int d = num % 10;\n            num = num / 10;\n\n            if (rev > Integer.MAX_VALUE / 10 || rev == Integer.MAX_VALUE / 10 && d > 7) {\n                return 0;\n            }\n            if (rev < Integer.MIN_VALUE / 10 || rev == Integer.MIN_VALUE / 10 && d < -8) {\n                return 0;\n            }\n            rev = (rev * 10) + d;\n        }\n\n        return rev;\n    }\n}",
+    "readme": "# 7. Reverse Integer\n\n**Difficulty:** Medium\n\n## Problem\n\nGiven a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-2^31, 2^31 - 1]`, then return `0`.\n\nAssume the environment does not allow you to store 64-bit integers (signed or unsigned).\n\n## Examples\n\n**Example 1:**\n\n```\nInput: x = 123\nOutput: 321\n```\n\n**Example 2:**\n\n```\nInput: x = -123\nOutput: -321\n```\n\n**Example 3:**\n\n```\nInput: x = 120\nOutput: 21\n```\n\n## Constraints\n\n- `-2^31 <= x <= 2^31 - 1`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/reverse-integer/)\n\n## Solution Approach\n\nExtract digits using modulo and division operations. Check for overflow before multiplying by 10.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(log x) - Number of digits in x\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "011",
+    "title": "ContainerWithMostWater",
+    "path": "011-ContainerWithMostWater",
+    "code": "class Solution {\n    public int maxArea(int[] height) {\n        int n = height.length;\n        int start = 0;\n        int end = n - 1;\n        int water = 0, maxWater = 0;\n\n        while (start < end) {\n            int n1, n2;\n            n1 = height[start];\n            n2 = height[end];\n            water = Math.min(n1, n2) * (end - start);\n            if (water > maxWater)\n                maxWater = water;\n            if (n1 < n2) {\n                start++;\n            } else {\n                end--;\n            }\n        }\n\n        return maxWater;\n    }\n}",
+    "readme": "# 11. Container With Most Water\n\n**Difficulty:** Medium\n\n## Problem\n\nYou are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `i-th` line are `(i, 0)` and `(i, height[i])`.\n\nFind two lines that together with the x-axis form a container, such that the container contains the most water.\n\nReturn the maximum amount of water a container can store.\n\n**Notice:** You may not slant the container.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: height = [1,8,6,2,5,4,8,3,7]\nOutput: 49\nExplanation: The max area is between index 1 and 8, area = min(8,7) * (8-1) = 49\n```\n\n**Example 2:**\n\n```\nInput: height = [1,1]\nOutput: 1\n```\n\n## Constraints\n\n- `n == height.length`\n- `2 <= n <= 10^5`\n- `0 <= height[i] <= 10^4`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/container-with-most-water/)\n\n## Solution Approach\n\nUse two pointers starting from both ends. Move the pointer with the smaller height inward to potentially find a larger area.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass with two pointers\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "026",
+    "title": "RemoveDuplicatesFromSortedArray",
+    "path": "026-RemoveDuplicatesFromSortedArray",
+    "code": "class Solution {\n    public int removeDuplicates(int[] nums) {\n        Integer prevItem = null;\n        Integer item = null, k = -1;\n\n        int i = 0;\n        while (i < nums.length) {\n            item = nums[i];\n            if (prevItem != item) {\n                nums[++k] = item;\n                prevItem = item;\n            } else {\n                i++;\n            }\n        }\n\n        return k + 1;\n\n    }\n}",
+    "readme": "# 26. Remove Duplicates from Sorted Array\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.\n\nReturn the number of unique elements `k`. The first `k` elements of `nums` should contain the unique numbers in sorted order.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,1,2]\nOutput: 2, nums = [1,2,_]\nExplanation: Your function should return k = 2, with the first two elements of nums being 1 and 2.\n```\n\n**Example 2:**\n\n```\nInput: nums = [0,0,1,1,1,2,2,3,3,4]\nOutput: 5, nums = [0,1,2,3,4,_,_,_,_,_]\n```\n\n## Constraints\n\n- `1 <= nums.length <= 3 * 10^4`\n- `-100 <= nums[i] <= 100`\n- `nums` is sorted in non-decreasing order\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)\n\n## Solution Approach\n\nUse two pointers: one for iterating and one for tracking the position of unique elements.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(1) - In-place modification\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "027",
+    "title": "RemoveElement",
+    "path": "027-RemoveElement",
+    "code": "class Solution {\n    public int removeElement(int[] nums, int val) {\n        int n = nums.length;\n        int first = 0;\n        int last = n-1;\n        while(first<=last){\n            if(nums[last] == val){\n                last--;\n            }else{\n                if(val == nums[first]){\n                    nums[first] = nums[last];\n                    last--;\n                    first++;\n                }else{\n                     first++;\n                }   \n            }\n        }\n\n        return last+1;\n    }\n}",
+    "readme": "# 27. Remove Element\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` in-place. The order of the elements may be changed. Return the number of elements in `nums` which are not equal to `val`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [3,2,2,3], val = 3\nOutput: 2, nums = [2,2,_,_]\n```\n\n**Example 2:**\n\n```\nInput: nums = [0,1,2,2,3,0,4,2], val = 2\nOutput: 5, nums = [0,1,4,0,3,_,_,_]\n```\n\n## Constraints\n\n- `0 <= nums.length <= 100`\n- `0 <= nums[i] <= 50`\n- `0 <= val <= 100`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/remove-element/)\n\n## Solution Approach\n\nUse two pointers to overwrite elements equal to val with elements not equal to val.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass\n- **Space Complexity:** O(1) - In-place\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "028",
+    "title": "FindIndexOfFirstOccurrence",
+    "path": "028-FindIndexOfFirstOccurrence",
+    "code": "class Solution {\n    public int strStr(String haystack, String needle) {\n        int m = haystack.length();\n        int n = needle.length();\n        int count = 0;\n        for (int i = 0; i <= m - n; i++) {\n            count = 0;\n            for (int j = 0; j < n; j++) {\n                if (haystack.charAt(i + j) == needle.charAt(j)) {\n                    count++;\n                } else {\n                    break;\n                }\n            }\n            if (count == n) {\n                return i;\n            }\n        }\n        return -1;\n    }\n\n}",
+    "readme": "# 28. Find the Index of the First Occurrence in a String\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: haystack = \"sadbutsad\", needle = \"sad\"\nOutput: 0\nExplanation: \"sad\" occurs at index 0 and 6. The first occurrence is at index 0.\n```\n\n**Example 2:**\n\n```\nInput: haystack = \"leetcode\", needle = \"leeto\"\nOutput: -1\n```\n\n## Constraints\n\n- `1 <= haystack.length, needle.length <= 10^4`\n- `haystack` and `needle` consist of only lowercase English characters\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)\n\n## Solution Approach\n\nUse Java's built-in `indexOf()` method or implement KMP algorithm for optimal solution.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n\\*m) - Naive approach, O(n+m) - KMP algorithm\n- **Space Complexity:** O(1) - Naive, O(m) - KMP\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "058",
+    "title": "LengthOfLastWord",
+    "path": "058-LengthOfLastWord",
+    "code": "class Solution {\n    public int lengthOfLastWord(String s) {\n        String[] sentences = s.split(\" \");\n        int lastWordLength = sentences.length -1;\n        String LastWord = sentences[lastWordLength];\n\n        return LastWord.length();\n    }\n}",
+    "readme": "# 58. Length of Last Word\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven a string `s` consisting of words and spaces, return the length of the last word in the string.\n\nA word is a maximal substring consisting of non-space characters only.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"Hello World\"\nOutput: 5\nExplanation: The last word is \"World\" with length 5.\n```\n\n**Example 2:**\n\n```\nInput: s = \"   fly me   to   the moon  \"\nOutput: 4\nExplanation: The last word is \"moon\" with length 4.\n```\n\n**Example 3:**\n\n```\nInput: s = \"luffy is still joyboy\"\nOutput: 6\n```\n\n## Constraints\n\n- `1 <= s.length <= 10^4`\n- `s` consists of only English letters and spaces `' '`\n- There will be at least one word in `s`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/length-of-last-word/)\n\n## Solution Approach\n\nTrim trailing spaces and traverse from the end until a space is found.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass from the end\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "066",
+    "title": "PlusOne",
+    "path": "066-PlusOne",
+    "code": "class Solution {\n    public int[] plusOne(int[] digits) {\n        for (int i = digits.length - 1; i >= 0; i--) {\n            if (digits[i] < 9) {\n                digits[i]++;\n                return digits;\n            }\n            digits[i] = 0;\n        }\n\n        int[] num = new int[digits.length + 1];\n        num[0] = 1;\n        return num;\n\n    }\n}",
+    "readme": "# 66. Plus One\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given a large integer represented as an integer array `digits`, where each `digits[i]` is the `i-th` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.\n\nIncrement the large integer by one and return the resulting array of digits.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: digits = [1,2,3]\nOutput: [1,2,4]\nExplanation: The array represents the integer 123. Incrementing by one gives 123 + 1 = 124.\n```\n\n**Example 2:**\n\n```\nInput: digits = [4,3,2,1]\nOutput: [4,3,2,2]\n```\n\n**Example 3:**\n\n```\nInput: digits = [9]\nOutput: [1,0]\n```\n\n## Constraints\n\n- `1 <= digits.length <= 100`\n- `0 <= digits[i] <= 9`\n- `digits` does not contain any leading `0`'s\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/plus-one/)\n\n## Solution Approach\n\nIterate from right to left, handling carry. If all digits are 9, create a new array with an extra digit.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through digits\n- **Space Complexity:** O(1) or O(n) - Only when all 9s\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "088",
+    "title": "MergeSortedArray",
+    "path": "088-MergeSortedArray",
+    "code": "class Solution {\n    public void merge(int[] nums1, int m, int[] nums2, int n) {\n        ArrayList<Integer> lst = new ArrayList<>();\n        for (int i = 0; i < m; i++) {\n            lst.add(nums1[i]);\n        }\n\n        for (int i = 0; i < n; i++) {\n            lst.add(nums2[i]);\n        }\n\n        Collections.sort(lst);\n\n        for (int i = 0; i < m + n; i++) {\n            nums1[i] = lst.get(i);\n        }\n    }\n}",
+    "readme": "# 88. Merge Sorted Array\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.\n\nMerge `nums1` and `nums2` into a single array sorted in non-decreasing order.\n\nThe final sorted array should not be returned but instead be stored inside `nums1`. To accommodate this, `nums1` has a length of `m + n`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3\nOutput: [1,2,2,3,5,6]\n```\n\n**Example 2:**\n\n```\nInput: nums1 = [1], m = 1, nums2 = [], n = 0\nOutput: [1]\n```\n\n**Example 3:**\n\n```\nInput: nums1 = [0], m = 0, nums2 = [1], n = 1\nOutput: [1]\n```\n\n## Constraints\n\n- `nums1.length == m + n`\n- `nums2.length == n`\n- `0 <= m, n <= 200`\n- `1 <= m + n <= 200`\n- `-10^9 <= nums1[i], nums2[j] <= 10^9`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/merge-sorted-array/)\n\n## Solution Approach\n\nUse three pointers and fill from the end of nums1 to avoid overwriting elements.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(m + n) - Single pass\n- **Space Complexity:** O(1) - In-place merge\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "125",
+    "title": "ValidPalindrome",
+    "path": "125-ValidPalindrome",
+    "code": "class Solution {\n    public boolean isPalindrome(String s) {\n        StringBuilder sb = new StringBuilder(\"\");\n\n        for(int i=0;i<s.length();i++){\n            char cur = s.charAt(i);\n            if(Character.isLetterOrDigit(cur)){\n                sb.append(Character.toLowerCase(cur));\n            }\n        }\n\n        for(int i=0;i<sb.length()/2;i++){\n            char start = sb.charAt(i);\n            char end = sb.charAt(sb.length() - i-1);\n            if(start!=end){\n                return false;\n            }\n        }\n\n        return true;\n    }\n}",
+    "readme": "# 125. Valid Palindrome\n\n**Difficulty:** Easy\n\n## Problem\n\nA phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.\n\nGiven a string `s`, return `true` if it is a palindrome, or `false` otherwise.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"A man, a plan, a canal: Panama\"\nOutput: true\nExplanation: \"amanaplanacanalpanama\" is a palindrome.\n```\n\n**Example 2:**\n\n```\nInput: s = \"race a car\"\nOutput: false\nExplanation: \"raceacar\" is not a palindrome.\n```\n\n**Example 3:**\n\n```\nInput: s = \" \"\nOutput: true\nExplanation: s is an empty string \"\" after removing non-alphanumeric characters.\n```\n\n## Constraints\n\n- `1 <= s.length <= 2 * 10^5`\n- `s` consists only of printable ASCII characters\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/valid-palindrome/)\n\n## Solution Approach\n\nUse two pointers from both ends, skipping non-alphanumeric characters and comparing characters in lowercase.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass with two pointers\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "135",
+    "title": "Candy",
+    "path": "135-Candy",
+    "code": "class Solution {\n    public int candy(int[] ratings) {\n        int candies[] = new int[ratings.length];\n\n        for(int i=0;i<ratings.length;i++){\n            candies[i] = 1;\n        }\n\n\n        for(int i=1;i<ratings.length;i++){\n            if(ratings[i] > ratings[i-1]){\n                candies[i] = candies[i-1]+1;\n            }\n        }\n\n\n        for(int i=ratings.length-2;i>=0;i--){\n            if(ratings[i]>ratings[i+1]){\n                candies[i] = Math.max(candies[i],candies[i+1]+1);\n            }\n        }\n\n\n        int sum =0;\n        for(int i =0;i<candies.length;i++) {\n               sum+=candies[i];\n        }\n\n\n\n        return sum;\n\n    }\n}",
+    "readme": "# 135. Candy\n\n**Difficulty:** Hard\n\n## Problem\n\nThere are `n` children standing in a line. Each child is assigned a rating value given in the integer array `ratings`.\n\nYou are giving candies to these children subjected to the following requirements:\n\n- Each child must have at least one candy.\n- Children with a higher rating get more candies than their neighbors.\n\nReturn the minimum number of candies you need to have to distribute the candies to the children.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: ratings = [1,0,2]\nOutput: 5\nExplanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.\n```\n\n**Example 2:**\n\n```\nInput: ratings = [1,2,2]\nOutput: 4\nExplanation: You can allocate to the first, second and third child with 1, 2, 1 candies respectively.\nThe third child gets 1 candy because it satisfies the above two conditions.\n```\n\n## Constraints\n\n- `n == ratings.length`\n- `1 <= n <= 2 * 10^4`\n- `0 <= ratings[i] <= 2 * 10^4`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/candy/)\n\n## Solution Approach\n\nTwo-pass approach: one left-to-right ensuring right neighbor rule, one right-to-left ensuring left neighbor rule.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Two passes through the array\n- **Space Complexity:** O(n) - Array to store candy distribution\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1365",
+    "title": "HowManyNumbersAreSmallerthanthCurrentNumber",
+    "path": "1365-HowManyNumbersAreSmallerthanthCurrentNumber",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# How Many Numbers Are Smaller Than the Current Number\n\nLeetCode Problem: #1365\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1470",
+    "title": "ShuffletheArray",
+    "path": "1470-ShuffletheArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Shuffle the Array\n\nLeetCode Problem: #1470\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1480",
+    "title": "ConcatenationofArray",
+    "path": "1480-ConcatenationofArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Concatenation of Array\n\nLeetCode Problem: #1480\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "150",
+    "title": "EvaluateReversePolishNotation",
+    "path": "150-EvaluateReversePolishNotation",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Evaluate Reverse Polish Notation\n\nLeetCode Problem: #150\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1550",
+    "title": "ThreeConsecutiveOdds",
+    "path": "1550-ThreeConsecutiveOdds",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Three Consecutive Odds\n\nLeetCode Problem: #1550\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1572",
+    "title": "BuildanArrayWithStackOperations",
+    "path": "1572-BuildanArrayWithStackOperations",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Build an Array With Stack Operations\n\nLeetCode Problem: #1572\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "160",
+    "title": "IntersectionOfTwoLinkedLists",
+    "path": "160-IntersectionOfTwoLinkedLists",
+    "code": "\n/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode(int x) {\n *         val = x;\n *         next = null;\n *     }\n * }\n */\npublic class Solution {\n\n    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {\n        ListNode lA = headA;\n        ListNode lB = headB;\n        while (lA != lB) {\n            if (lA == null) {\n                lA = headB;\n            } else {\n                lA = lA.next;\n            }\n            if (lB == null) {\n                lB = headA;\n            } else {\n                lB = lB.next;\n            }\n        }\n\n        if (lA != null) {\n            return lA;\n        } else {\n            return null;\n        }\n\n    }\n}\n",
+    "readme": "# 160. Intersection of Two Linked Lists\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return `null`.\n\nThe test cases are generated such that there are no cycles anywhere in the entire linked structure.\n\n**Note:** The linked lists must retain their original structure after the function returns.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3\nOutput: Intersected at '8'\n```\n\n**Example 2:**\n\n```\nInput: intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1\nOutput: Intersected at '2'\n```\n\n**Example 3:**\n\n```\nInput: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2\nOutput: No intersection\n```\n\n## Constraints\n\n- The number of nodes of `listA` is in the `m`\n- The number of nodes of `listB` is in the `n`\n- `1 <= m, n <= 3 * 10^4`\n- `1 <= Node.val <= 10^5`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/)\n\n## Solution Approach\n\nUse two pointers. When a pointer reaches the end, redirect it to the other list's head. They will meet at intersection or both be null.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(m + n) - Both pointers traverse both lists\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "1672",
+    "title": "RichestCustomerWealth",
+    "path": "1672-RichestCustomerWealth",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Richest Customer Wealth\n\nLeetCode Problem: #1672\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "189",
+    "title": "RotateArray",
+    "path": "189-RotateArray",
+    "code": "class Solution {\n\n    public void rotateByK(int num[], int start, int end) {\n        while (start <= end) {\n            int temp = num[end];\n            num[end] = num[start];\n            num[start] = temp;\n            start++;\n            end--;\n        }\n    }\n\n    public void rotate(int[] nums, int k) {\n        int n = nums.length;\n        if (k > n)\n            k = k % n;\n        rotateByK(nums, 0, n - 1);\n        rotateByK(nums, 0, k - 1);\n        rotateByK(nums, k, n - 1);\n    }\n}",
+    "readme": "# 189. Rotate Array\n\n**Difficulty:** Medium\n\n## Problem\n\nGiven an integer array `nums`, rotate the array to the right by `k` steps, where `k` is non-negative.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,2,3,4,5,6,7], k = 3\nOutput: [5,6,7,1,2,3,4]\nExplanation:\nrotate 1 steps to the right: [7,1,2,3,4,5,6]\nrotate 2 steps to the right: [6,7,1,2,3,4,5]\nrotate 3 steps to the right: [5,6,7,1,2,3,4]\n```\n\n**Example 2:**\n\n```\nInput: nums = [-1,-100,3,99], k = 2\nOutput: [3,99,-1,-100]\nExplanation:\nrotate 1 steps to the right: [99,-1,-100,3]\nrotate 2 steps to the right: [3,99,-1,-100]\n```\n\n## Constraints\n\n- `1 <= nums.length <= 10^5`\n- `-2^31 <= nums[i] <= 2^31 - 1`\n- `0 <= k <= 10^5`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/rotate-array/)\n\n## Solution Approach\n\nReverse the entire array, then reverse first k elements, then reverse remaining elements.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Three reverse operations\n- **Space Complexity:** O(1) - In-place rotation\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2011",
+    "title": "FinalValueofVariableAfterPerformingOperations",
+    "path": "2011-FinalValueofVariableAfterPerformingOperations",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Final Value of Variable After Performing Operations\n\nLeetCode Problem: #2011\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "202",
+    "title": "HappyNumber",
+    "path": "202-HappyNumber",
+    "code": "class Solution {\n    public boolean isHappy(int n) {\n        Set<Integer> map = new HashSet<>();\n        if (n == 1)\n            return true;\n        while (n >= 0) {\n            int num = n;\n            int sum = 0;\n            while (num != 0) {\n                int d = num % 10;\n                sum += Math.pow(d, 2);\n                num = num / 10;\n            }\n            if (sum == 1) {\n                return true;\n            } else {\n                if (map.contains(sum)) {\n                    return false;\n                }\n                map.add(sum);\n                n = sum;\n            }\n        }\n        return false;\n    }\n}",
+    "readme": "# 202. Happy Number\n\n**Difficulty:** Easy\n\n## Problem\n\nWrite an algorithm to determine if a number `n` is happy.\n\nA happy number is a number defined by the following process:\n\n- Starting with any positive integer, replace the number by the sum of the squares of its digits.\n- Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.\n- Those numbers for which this process ends in 1 are happy.\n\nReturn `true` if `n` is a happy number, and `false` if not.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: n = 19\nOutput: true\nExplanation:\n1^2 + 9^2 = 82\n8^2 + 2^2 = 68\n6^2 + 8^2 = 100\n1^2 + 0^2 + 0^2 = 1\n```\n\n**Example 2:**\n\n```\nInput: n = 2\nOutput: false\n```\n\n## Constraints\n\n- `1 <= n <= 2^31 - 1`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/happy-number/)\n\n## Solution Approach\n\nUse a HashSet to detect cycles, or use Floyd's cycle detection (slow/fast pointers).\n\n## Complexity Analysis\n\n- **Time Complexity:** O(log n) - Number of digits decreases\n- **Space Complexity:** O(log n) - HashSet storage\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "205",
+    "title": "IsomorphicStrings",
+    "path": "205-IsomorphicStrings",
+    "code": "class Solution {\n    public boolean isIsomorphic(String s, String t) {\n            HashMap<Character,Character> smap = new HashMap<>();\n            HashMap<Character,Character> tmap = new HashMap<>();\n\n\n            if(s.length() != t.length()){\n                return false;\n            }a\n\n            for(int i=0;i<s.length();i++){\n\n                Character sc = s.charAt(i);\n                Character tc = t.charAt(i);\n\n                if(smap.containsKey(sc))\n                {\n                    if(smap.get(sc) != tc) return false;\n                }else{\n                    smap.put(sc,tc);\n                }\n\n                if(tmap.containsKey(tc))\n                {\n                    if(tmap.get(tc) != sc) return false;\n                }else{\n                    tmap.put(tc,sc);\n                }\n\n            }\n\n\n        return true;\n    }\n}",
+    "readme": "# 205. Isomorphic Strings\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven two strings `s` and `t`, determine if they are isomorphic.\n\nTwo strings `s` and `t` are isomorphic if the characters in `s` can be replaced to get `t`.\n\nAll occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"egg\", t = \"add\"\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: s = \"foo\", t = \"bar\"\nOutput: false\n```\n\n**Example 3:**\n\n```\nInput: s = \"paper\", t = \"title\"\nOutput: true\n```\n\n## Constraints\n\n- `1 <= s.length <= 5 * 10^4`\n- `t.length == s.length`\n- `s` and `t` consist of any valid ASCII character\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/isomorphic-strings/)\n\n## Solution Approach\n\nUse two HashMaps to track character mappings from s to t and t to s.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through strings\n- **Space Complexity:** O(1) - Limited to ASCII character set\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2108",
+    "title": "FindFirstPalindromicStringintheArray",
+    "path": "2108-FindFirstPalindromicStringintheArray",
+    "code": "\nclass Solution {\n\n    public boolean isPalindrome(String s) {\n        int left = 0;\n        int right = s.length() - 1;\n\n        while (left < right) {\n            if (s.charAt(left) != s.charAt(right)) {\n                return false;\n            }\n            left++;\n            right--;\n        }\n        return true;\n    }\n\n    public String firstPalindrome(String[] words) {\n        for (String s : words) {\n            if (isPalindrome(s)) {\n                return s;\n            }\n        }\n        return \"\";\n    }\n}\n",
+    "readme": "# 2108. Find First Palindromic String in the Array\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an array of strings `words`, return the first string in the array that is a palindrome. If there is no such string, return an empty string `\"\"`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: words = [\"abc\",\"car\",\"ada\",\"racecar\",\"cool\"]\nOutput: \"ada\"\n```\n\n**Example 2:**\n\n```\nInput: words = [\"notapalindrome\",\"racecar\"]\nOutput: \"racecar\"\n```\n\n## Constraints\n\n- `1 <= words.length <= 100`\n- `1 <= words[i].length <= 100`\n- `words[i]` consists only of lowercase English letters.\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)\n\n2108. Find First Palindromic String in the Array\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      Given an array of strings words, return the first palindromic string in the array. If there is no such string, return an empty string \"\".\n\nA string is palindromic if it reads the same forward and backward.\n\nExample 1:\n\nInput: words = [\"abc\",\"car\",\"ada\",\"racecar\",\"cool\"]\nOutput: \"ada\"\nExplanation: The first string that is palindromic is \"ada\".\nNote that \"racecar\" is also palindromic, but it is not the first.\nExample 2:\n\nInput: words = [\"notapalindrome\",\"racecar\"]\nOutput: \"racecar\"\nExplanation: The first and only string that is palindromic is \"racecar\".\nExample 3:\n\nInput: words = [\"def\",\"ghi\"]\nOutput: \"\"\nExplanation: There are no palindromic strings, so the empty string is returned.\n\nConstraints:\n\n1 <= words.length <= 100\n1 <= words[i].length <= 100\nwords[i] consists only of lowercase English letters.\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2114",
+    "title": "MaximumNumberofWordsFoundinSentences",
+    "path": "2114-MaximumNumberofWordsFoundinSentences",
+    "code": "\nclass Solution {\n\n    public int mostWordsFound(String[] sentences) {\n        int max = Integer.MIN_VALUE;\n        for (String str : sentences) {\n            int len = 0;\n            for (char c : str.toCharArray()) {\n                len += (c == ' ') ? 1 : 0;\n            }\n            len += 1;\n            if (len > max) {\n                max = len;\n            }\n        }\n\n        return max;\n    }\n}\n",
+    "readme": "# 2114. Maximum Number of Words Found in Sentences\n\n**Difficulty:** Easy\n\n## Problem\n\nA sentence is a list of words that are separated by a single space with no leading or trailing spaces.\n\nYou are given an array of strings `sentences`, where each `sentences[i]` represents a single sentence.\n\nReturn the maximum number of words that appear in a single sentence.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: sentences = [\"alice and bob love leetcode\", \"i think so too\", \"this is great thanks very much\"]\nOutput: 6\n```\n\n**Example 2:**\n\n```\nInput: sentences = [\"please wait\", \"continue to fight\", \"continue to win\"]\nOutput: 3\n```\n\n## Constraints\n\n- `1 <= sentences.length <= 100`\n- `1 <= sentences[i].length <= 100`\n- `sentences[i]` consists only of lowercase English letters and spaces `' '`.\n- `sentences[i]` does not have leading or trailing spaces.\n- All the words in `sentences[i]` are separated by a single space.\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)\n\n2114. Maximum Number of Words Found in Sentences\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      A sentence is a list of words that are separated by a single space with no leading or trailing spaces.\n\nYou are given an array of strings sentences, where each sentences[i] represents a single sentence.\n\nReturn the maximum number of words that appear in a single sentence.\n\nExample 1:\n\nInput: sentences = [\"alice and bob love leetcode\", \"i think so too\", \"this is great thanks very much\"]\nOutput: 6\nExplanation:\n\n- The first sentence, \"alice and bob love leetcode\", has 5 words in total.\n- The second sentence, \"i think so too\", has 4 words in total.\n- The third sentence, \"this is great thanks very much\", has 6 words in total.\n  Thus, the maximum number of words in a single sentence comes from the third sentence, which has 6 words.\n  Example 2:\n\nInput: sentences = [\"please wait\", \"continue to fight\", \"continue to win\"]\nOutput: 3\nExplanation: It is possible that multiple sentences contain the same number of words.\nIn this example, the second and third sentences (underlined) have the same number of words.\n\nConstraints:\n\n1 <= sentences.length <= 100\n1 <= sentences[i].length <= 100\nsentences[i] consists only of lowercase English letters and ' ' only.\nsentences[i] does not have leading or trailing spaces.\nAll the words in sentences[i] are separated by a single space.\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2154",
+    "title": "KeepMultiplyingFoundValuesByTwo",
+    "path": "2154-KeepMultiplyingFoundValuesByTwo",
+    "code": "class Solution {\n    public int findFinalValue(int[] nums, int original) {\n    HashSet<Integer> lst = new HashSet<>();\n    for(int n : nums){\n        lst.add(n);\n    }\n\n\n    while(lst.contains(original))\n        original = original*2;\n    return original;\n    }\n}",
+    "readme": "# 2154. Keep Multiplying Found Values by Two\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given an array of integers `nums`. You are also given an integer `original` which is the first number that needs to be searched for in `nums`.\n\nYou then do the following steps:\n\n1. If `original` is found in `nums`, multiply it by two (i.e., set `original = 2 * original`).\n2. Otherwise, stop the process.\n3. Repeat this process with the new number as long as you keep finding the number.\n\nReturn the final value of `original`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [5,3,6,1,12], original = 3\nOutput: 24\nExplanation:\n- 3 is found in nums. 3 is multiplied by 2 to obtain 6.\n- 6 is found in nums. 6 is multiplied by 2 to obtain 12.\n- 12 is found in nums. 12 is multiplied by 2 to obtain 24.\n- 24 is not found in nums. Thus, 24 is returned.\n```\n\n**Example 2:**\n\n```\nInput: nums = [2,7,9], original = 4\nOutput: 4\nExplanation:\n- 4 is not found in nums. Thus, 4 is returned.\n```\n\n## Constraints\n\n- `1 <= nums.length <= 1000`\n- `1 <= nums[i], original <= 1000`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)\n\n## Solution Approach\n\nUse a HashSet for O(1) lookup, repeatedly check if value exists and multiply by 2.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n + k) - Where k is number of multiplications\n- **Space Complexity:** O(n) - HashSet storage\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "217",
+    "title": "ContainsDuplicate",
+    "path": "217-ContainsDuplicate",
+    "code": "class Solution {\n    public boolean containsDuplicate(int[] nums) {\n        HashMap<Integer, Integer> map = new HashMap<>();\n        for (int i = 0; i < nums.length; i++) {\n            if (map.containsKey(nums[i])) {\n                map.put(nums[i], map.get(nums[i]) + 1);\n            } else {\n                map.put(nums[i], 1);\n            }\n        }\n\n        for (int num : map.keySet()) {\n            if (map.get(num) > 1) {\n                return true;\n            }\n        }\n\n        return false;\n    }\n}",
+    "readme": "# 217. Contains Duplicate\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,2,3,1]\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: nums = [1,2,3,4]\nOutput: false\n```\n\n**Example 3:**\n\n```\nInput: nums = [1,1,1,3,3,4,3,2,4,2]\nOutput: true\n```\n\n## Constraints\n\n- `1 <= nums.length <= 10^5`\n- `-10^9 <= nums[i] <= 10^9`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/contains-duplicate/)\n\n## Solution Approach\n\nUse a HashSet to track seen elements. If an element is already in the set, return true.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(n) - HashSet storage\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "234",
+    "title": "PalindromeLinkedList",
+    "path": "234-PalindromeLinkedList",
+    "code": "\n/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode() {}\n *     ListNode(int val) { this.val = val; }\n *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }\n * }\n */\nclass Solution {\n\n    public boolean isPalindrome(ListNode head) {\n        ListNode Middle = head;\n        ListNode p2 = head;\n\n        while (p2 != null && p2.next != null) {\n            Middle = Middle.next;\n            p2 = p2.next.next;\n        }\n\n        ListNode prev = null, cur = head, next = null;\n\n        while (cur != Middle) {\n            next = cur.next;\n            cur.next = prev;\n            prev = cur;\n            cur = next;\n        }\n\n        if (p2 != null) {\n            Middle = Middle.next;\n        }\n\n        //compare two..\n        //one starts from 'middle' and another from 'prev'\n        while (Middle != null || prev != null) {\n            if (Middle.val != prev.val) {\n                return false;\n            }\n            Middle = Middle.next;\n            prev = prev.next;\n        }\n\n        return true;\n\n    }\n}\n",
+    "readme": "# 234. Palindrome Linked List\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven the head of a singly linked list, return `true` if it is a palindrome or `false` otherwise.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: head = [1,2,2,1]\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: head = [1,2]\nOutput: false\n```\n\n## Constraints\n\n- The number of nodes in the list is in the range `[1, 10^5]`.\n- `0 <= Node.val <= 9`.\n\n## Follow up\n\nCan you solve it in `O(n)` time and `O(1)` space?\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/palindrome-linked-list/)\n\n234. Palindrome Linked List\n     Solved\n     Easy\n     Topics\n     premium lock icon\n     Companies\n     Given the head of a singly linked list, return true if it is a palindrome or false otherwise.\n\nExample 1:\n\nInput: head = [1,2,2,1]\nOutput: true\nExample 2:\n\nInput: head = [1,2]\nOutput: false\n\nConstraints:\n\nThe number of nodes in the list is in the range [1, 105].\n0 <= Node.val <= 9\n\nFollow up: Could you do it in O(n) time and O(1) space?\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "238",
+    "title": "ProductOfArrayExceptSelf",
+    "path": "238-ProductOfArrayExceptSelf",
+    "code": "class Solution {\n    public int[] productExceptSelf(int[] nums) {\n        int n = nums.length;\n        int[] left = new int[n];\n        int[] right = new int[n];\n        int[] ans = new int[n];\n        int lprod = 1, rprod = 1;\n\n        for (int i = 0; i < n; i++) {\n            lprod *= nums[i];\n            rprod *= nums[n - i - 1];\n            left[i] = lprod;\n            right[n - 1 - i] = rprod;\n        }\n\n        for (int i = 0; i < n; i++) {\n            int l = i > 0 ? left[i - 1] : 1;\n            int r = i + 1 < n ? right[i + 1] : 1;\n            ans[i] = l * r;\n        }\n        return ans;\n    }\n}",
+    "readme": "# 238. Product of Array Except Self\n\n**Difficulty:** Medium\n\n## Problem\n\nGiven an integer array `nums`, return an array `answer` such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`.\n\nThe product of any prefix or suffix of `nums` is guaranteed to fit in a 32-bit integer.\n\nYou must write an algorithm that runs in O(n) time and without using the division operation.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,2,3,4]\nOutput: [24,12,8,6]\n```\n\n**Example 2:**\n\n```\nInput: nums = [-1,1,0,-3,3]\nOutput: [0,0,9,0,0]\n```\n\n## Constraints\n\n- `2 <= nums.length <= 10^5`\n- `-30 <= nums[i] <= 30`\n- The product of any prefix or suffix of `nums` is guaranteed to fit in a 32-bit integer\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/product-of-array-except-self/)\n\n## Solution Approach\n\nTwo-pass approach: calculate prefix products, then multiply by suffix products in reverse.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Two passes through array\n- **Space Complexity:** O(1) - Output array doesn't count\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "242",
+    "title": "ValidAnagram",
+    "path": "242-ValidAnagram",
+    "code": "class Solution {\n    public boolean isAnagram(String s, String t) {\n        HashMap<Character,Integer> map = new HashMap<>();\n\n        if(s.length() != t.length()) return false;\n        for(Character c : s.toCharArray()){\n            map.put(c,map.getOrDefault(c,0)+1);\n        }\n        \n    \n\n        for(Character c: t.toCharArray()){\n            if(!map.containsKey(c)) return false;\n            map.put(c,map.getOrDefault(c,0)-1);\n            if(map.get(c)<0) return false;\n        }\n        \n\n        return true;\n\n    }\n}",
+    "readme": "# 242. Valid Anagram\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.\n\nAn anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"anagram\", t = \"nagaram\"\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: s = \"rat\", t = \"car\"\nOutput: false\n```\n\n## Constraints\n\n- `1 <= s.length, t.length <= 5 * 10^4`\n- `s` and `t` consist of lowercase English letters\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/valid-anagram/)\n\n## Solution Approach\n\nSort both strings and compare, or use a frequency map to count character occurrences.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n log n) - Sorting approach, O(n) - HashMap approach\n- **Space Complexity:** O(1) - Constant space for fixed alphabet size\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2520",
+    "title": "CounttheDigitsThatDivideaNumber",
+    "path": "2520-CounttheDigitsThatDivideaNumber",
+    "code": "\nclass Solution {\n\n    public int countDigits(int num) {\n        int devidend = num;\n        int count = 0;\n\n        while (num > 0) {\n            int rem = num % 10;\n\n            if (devidend % rem == 0) {\n                count += 1;\n            }\n\n            num = num / 10;\n        }\n\n        return count;\n\n    }\n}\n",
+    "readme": "2520. Count the Digits That Divide a Number\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      Given an integer num, return the number of digits in num that divide num.\n\nAn integer val divides nums if nums % val == 0.\n\nExample 1:\n\nInput: num = 7\nOutput: 1\nExplanation: 7 divides itself, hence the answer is 1.\nExample 2:\n\nInput: num = 121\nOutput: 2\nExplanation: 121 is divisible by 1, but not 2. Since 1 occurs twice as a digit, we return 2.\nExample 3:\n\nInput: num = 1248\nOutput: 4\nExplanation: 1248 is divisible by all of its digits, hence the answer is 4.\n\nConstraints:\n\n1 <= num <= 109\nnum does not contain 0 as one of its digits.\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2535",
+    "title": "DifferenceBetweenElementSumandDigitSumofanArray",
+    "path": "2535-DifferenceBetweenElementSumandDigitSumofanArray",
+    "code": "\nclass Solution {\n\n    public int getDigitSum(int num) {\n        int sum = 0;\n        while (num != 0) {\n            int rem = num % 10;\n            sum += rem;\n            num = num / 10;\n        }\n\n        return sum;\n    }\n\n    public int differenceOfSum(int[] nums) {\n        int digitSum = 0;\n        int eleSum = 0;\n\n        for (int num : nums) {\n            digitSum += getDigitSum(num);\n            eleSum += num;\n        }\n\n        return Math.abs(eleSum - digitSum);\n\n    }\n}\n",
+    "readme": "# 2535. Difference Between Element Sum and Digit Sum of an Array\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given a positive integer array `nums`. The element sum is the sum of all elements in `nums`. The digit sum is the sum of all digits (in base 10) that appear in `nums`. Return the absolute difference between the element sum and the digit sum.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,15,6,3]\nOutput: 9\nExplanation: Element sum = 25, Digit sum = 16, Difference = 9.\n```\n\n**Example 2:**\n\n```\nInput: nums = [1,2,3,4]\nOutput: 0\n```\n\n## Constraints\n\n- `1 <= nums.length <= 2000`\n- `1 <= nums[i] <= 10^6`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)\n\n2535. Difference Between Element Sum and Digit Sum of an Array\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      You are given a positive integer array nums.\n\nThe element sum is the sum of all the elements in nums.\nThe digit sum is the sum of all the digits (not necessarily distinct) that appear in nums.\nReturn the absolute difference between the element sum and digit sum of nums.\n\nNote that the absolute difference between two integers x and y is defined as |x - y|.\n\nExample 1:\n\nInput: nums = [1,15,6,3]\nOutput: 9\nExplanation:\nThe element sum of nums is 1 + 15 + 6 + 3 = 25.\nThe digit sum of nums is 1 + 1 + 5 + 6 + 3 = 16.\nThe absolute difference between the element sum and digit sum is |25 - 16| = 9.\nExample 2:\n\nInput: nums = [1,2,3,4]\nOutput: 0\nExplanation:\nThe element sum of nums is 1 + 2 + 3 + 4 = 10.\nThe digit sum of nums is 1 + 2 + 3 + 4 = 10.\nThe absolute difference between the element sum and digit sum is |10 - 10| = 0.\n\nConstraints:\n\n1 <= nums.length <= 2000\n1 <= nums[i] <= 2000\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2572",
+    "title": "SignoftheProductofanArray",
+    "path": "2572-SignoftheProductofanArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Sign of the Product of an Array\n\nLeetCode Problem: #2572\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2652",
+    "title": "SumMultiples",
+    "path": "2652-SumMultiples",
+    "code": "\nclass Solution {\n\n    public int sumOfMultiples(int n) {\n        int sum = 0;\n        for (int i = 3; i <= n; i++) {\n            if (i % 3 == 0 || i % 5 == 0 || i % 7 == 0) {\n                sum += i;\n            }\n        }\n\n        return sum;\n    }\n}\n",
+    "readme": "# 2652. Sum Multiples\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an integer `n`, return the sum of all positive integers less than or equal to `n` that are divisible by either 3 or 5.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: n = 7\nOutput: 14\nExplanation: Numbers are 3, 5, and 6 -> sum = 14.\n```\n\n**Example 2:**\n\n```\nInput: n = 10\nOutput: 33\n```\n\n## Constraints\n\n- `1 <= n <= 10^4`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/sum-multiples/)\n\n2652. Sum Multiples\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      Given a positive integer n, find the sum of all integers in the range [1, n] inclusive that are divisible by 3, 5, or 7.\n\nReturn an integer denoting the sum of all numbers in the given range satisfying the constraint.\n\nExample 1:\n\nInput: n = 7\nOutput: 21\nExplanation: Numbers in the range [1, 7] that are divisible by 3, 5, or 7 are 3, 5, 6, 7. The sum of these numbers is 21.\nExample 2:\n\nInput: n = 10\nOutput: 40\nExplanation: Numbers in the range [1, 10] that are divisible by 3, 5, or 7 are 3, 5, 6, 7, 9, 10. The sum of these numbers is 40.\nExample 3:\n\nInput: n = 9\nOutput: 30\nExplanation: Numbers in the range [1, 9] that are divisible by 3, 5, or 7 are 3, 5, 6, 7, 9. The sum of these numbers is 30.\n\nConstraints:\n\n1 <= n <= 103\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "283",
+    "title": "MoveZeroes",
+    "path": "283-MoveZeroes",
+    "code": "class Solution {\n    public void moveZeroes(int[] nums) {\n        int temp;\n        for (int i = 0, k = 0; i < nums.length; i++) {\n            if (nums[i] != 0) {\n                temp = nums[k];\n                nums[k] = nums[i];\n                nums[i] = temp;\n                k++;\n            }\n        }\n    }\n}",
+    "readme": "# 283. Move Zeroes\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.\n\n**Note:** You must do this in-place without making a copy of the array.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [0,1,0,3,12]\nOutput: [1,3,12,0,0]\n```\n\n**Example 2:**\n\n```\nInput: nums = [0]\nOutput: [0]\n```\n\n## Constraints\n\n- `1 <= nums.length <= 10^4`\n- `-2^31 <= nums[i] <= 2^31 - 1`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/move-zeroes/)\n\n## Solution Approach\n\nUse two pointers: one to track non-zero position, one to iterate. Swap non-zero elements to the front.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(1) - In-place operation\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2874",
+    "title": "TransformedArray",
+    "path": "2874-TransformedArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Transformed Array\n\nLeetCode Problem: #2874\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2894",
+    "title": "DivisibleandNondivisibleSumsDifference",
+    "path": "2894-DivisibleandNondivisibleSumsDifference",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Divisible and Non-divisible Sums Difference\n\nLeetCode Problem: #2894\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "290",
+    "title": "WordPattern",
+    "path": "290-WordPattern",
+    "code": "package LEETCODE.Word-pattern;\n\npublic class Solution {\n    public boolean wordPattern(String pattern, String s) {\n        HashMap<Character, String> pmap = new HashMap<>();\n        HashMap<String, Character> smap = new HashMap<>();\n        String[] sa = s.split(\" \");\n        if (sa.length != pattern.length())\n            return false;\n        for (int i = 0; i < pattern.length(); i++) {\n            Character c = pattern.charAt(i);\n            if (pmap.containsKey(c)) {\n                if (!pmap.get(c).equals(sa[i])) {\n                    return false;\n                }\n            }\n            if (smap.containsKey(sa[i])) {\n                if (!smap.get(sa[i]).equals(c))\n                    return false;\n            }\n\n            pmap.put(c, sa[i]);\n            smap.put(sa[i], c);\n        }\n        return true;\n    }\n}.java{\n\n}\n",
+    "readme": "# 290. Word Pattern\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven a `pattern` and a string `s`, find if `s` follows the same pattern.\n\nHere follow means a full match, such that there is a bijection between a letter in `pattern` and a non-empty word in `s`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: pattern = \"abba\", s = \"dog cat cat dog\"\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: pattern = \"abba\", s = \"dog cat cat fish\"\nOutput: false\n```\n\n**Example 3:**\n\n```\nInput: pattern = \"aaaa\", s = \"dog cat cat dog\"\nOutput: false\n```\n\n## Constraints\n\n- `1 <= pattern.length <= 300`\n- `pattern` contains only lower-case English letters\n- `1 <= s.length <= 3000`\n- `s` contains only lowercase English letters and spaces `' '`\n- `s` does not contain any leading or trailing spaces\n- All the words in `s` are separated by a single space\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/word-pattern/)\n\n## Solution Approach\n\nUse two HashMaps to establish bidirectional mapping between pattern characters and words.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Where n is the length of s\n- **Space Complexity:** O(m) - Where m is the number of unique words\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2936",
+    "title": "NumberofChangingKeys",
+    "path": "2936-NumberofChangingKeys",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Number of Changing Keys\n\nLeetCode Problem: #2936\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2942",
+    "title": "FindWordsContainingCharacter",
+    "path": "2942-FindWordsContainingCharacter",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Find Words Containing Character\n\nLeetCode Problem: #2942\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "2974",
+    "title": "MinimumNumberGame",
+    "path": "2974-MinimumNumberGame",
+    "code": "\nclass Solution {\n\n    public int[] numberGame(int[] nums) {\n        List<Integer> numbers = new ArrayList<>();\n        ArrayList<Integer> result = new ArrayList<>();\n\n        for (int val : nums) {\n            numbers.add(val);\n        }\n        Collections.sort(numbers);\n\n        while (!numbers.isEmpty()) {\n            int num1 = numbers.remove(0);\n            int num2 = numbers.remove(0);\n\n            result.add(num2);\n            result.add(num1);\n        }\n\n        return result.stream().mapToInt(Integer::intValue).toArray();\n    }\n}\n",
+    "readme": "# 2974. Minimum Number Game\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given a 0-indexed integer array `nums` of even length and there is also an empty array `arr`. Alice and Bob play a game where in every round Alice and Bob each remove the minimum element from `nums` and then append in a specified order to `arr`.\n\nSpecifically, in every round:\n\n- Alice removes the minimum element from `nums` first, then Bob removes the next minimum.\n- Bob appends his removed element to `arr` first, then Alice appends hers.\n\nReturn the resulting array `arr` after the game ends.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [5,4,2,3]\nOutput: [3,2,5,4]\n```\n\n**Example 2:**\n\n```\nInput: nums = [2,5]\nOutput: [5,2]\n```\n\n## Constraints\n\n- `2 <= nums.length <= 100`\n- `1 <= nums[i] <= 100`\n- `nums.length % 2 == 0`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/minimum-number-game/)\n\n2974. Minimum Number Game\n      Solved\n      Easy\n      Topics\n      premium lock icon\n      Companies\n      Hint\n      You are given a 0-indexed integer array nums of even length and there is also an empty array arr. Alice and Bob decided to play a game where in every round Alice and Bob will do one move. The rules of the game are as follows:\n\nEvery round, first Alice will remove the minimum element from nums, and then Bob does the same.\nNow, first Bob will append the removed element in the array arr, and then Alice does the same.\nThe game continues until nums becomes empty.\nReturn the resulting array arr.\n\nExample 1:\n\nInput: nums = [5,4,2,3]\nOutput: [3,2,5,4]\nExplanation: In round one, first Alice removes 2 and then Bob removes 3. Then in arr firstly Bob appends 3 and then Alice appends 2. So arr = [3,2].\nAt the begining of round two, nums = [5,4]. Now, first Alice removes 4 and then Bob removes 5. Then both append in arr which becomes [3,2,5,4].\nExample 2:\n\nInput: nums = [2,5]\nOutput: [5,2]\nExplanation: In round one, first Alice removes 2 and then Bob removes 5. Then in arr firstly Bob appends and then Alice appends. So arr = [5,2].\n\nConstraints:\n\n2 <= nums.length <= 100\n1 <= nums[i] <= 100\nnums.length % 2 == 0\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "303",
+    "title": "RangeSumQueryImmutable",
+    "path": "303-RangeSumQueryImmutable",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Range Sum Query - Immutable\n\nLeetCode Problem: #303\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "383",
+    "title": "RansomNote",
+    "path": "383-RansomNote",
+    "code": "class Solution {\n    public boolean canConstruct(String ransomNote, String magazine) {\n                if(magazine.length() < ransomNote.length()) return false;\n\n        int freq[]=new int[26];\n\n        for(char c : magazine.toCharArray()){\n            freq[c-'a']+=1;\n        }\n        for(char c : ransomNote.toCharArray()){\n            if(freq[c-'a'] == 0)\n                return false;\n            freq[c-'a']-=1;\n        }\n\n        return true;\n    }\n}",
+    "readme": "# 383. Ransom Note\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven two strings `ransomNote` and `magazine`, return `true` if `ransomNote` can be constructed by using the letters from `magazine` and `false` otherwise.\n\nEach letter in `magazine` can only be used once in `ransomNote`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: ransomNote = \"a\", magazine = \"b\"\nOutput: false\n```\n\n**Example 2:**\n\n```\nInput: ransomNote = \"aa\", magazine = \"ab\"\nOutput: false\n```\n\n**Example 3:**\n\n```\nInput: ransomNote = \"aa\", magazine = \"aab\"\nOutput: true\n```\n\n## Constraints\n\n- `1 <= ransomNote.length, magazine.length <= 10^5`\n- `ransomNote` and `magazine` consist of lowercase English letters\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/ransom-note/)\n\n## Solution Approach\n\nCount character frequencies in magazine, then check if ransomNote can be formed.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(m + n) - Where m and n are string lengths\n- **Space Complexity:** O(1) - Fixed size array for 26 letters\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "392",
+    "title": "IsSubsequence",
+    "path": "392-IsSubsequence",
+    "code": "class Solution {\n    public boolean isSubsequence(String s, String t) {\n        int sindex = 0;\n        int sn = s.length();\n        int tindex = 0;\n        int tn = t.length();\n\n        while (sindex < sn && tindex < tn) {\n            if (s.charAt(sindex) == t.charAt(tindex)) {\n                sindex++;\n            }\n            tindex++;\n        }\n        return sindex == sn;\n\n    }\n}",
+    "readme": "# 392. Is Subsequence\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven two strings `s` and `t`, return `true` if `s` is a subsequence of `t`, or `false` otherwise.\n\nA subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., `\"ace\"` is a subsequence of `\"abcde\"` while `\"aec\"` is not).\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"abc\", t = \"ahbgdc\"\nOutput: true\n```\n\n**Example 2:**\n\n```\nInput: s = \"axc\", t = \"ahbgdc\"\nOutput: false\n```\n\n## Constraints\n\n- `0 <= s.length <= 100`\n- `0 <= t.length <= 10^4`\n- `s` and `t` consist only of lowercase English letters\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/is-subsequence/)\n\n## Solution Approach\n\nUse two pointers to traverse both strings, advancing through s only when characters match.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Where n is the length of t\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "448",
+    "title": "FindAllNumbersDisappearedinanArray",
+    "path": "448-FindAllNumbersDisappearedinanArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Find All Numbers Disappeared in an Array\n\nLeetCode Problem: #448\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "485",
+    "title": "MaxConsecutiveOnes",
+    "path": "485-MaxConsecutiveOnes",
+    "code": "class Solution {\n    public boolean isIsomorphic(String s, String t) {\n            HashMap<Character,Character> smap = new HashMap<>();\n            HashMap<Character,Character> tmap = new HashMap<>();\n\n\n            if(s.length() != t.length()){\n                return false;\n            }a\n\n            for(int i=0;i<s.length();i++){\n\n                Character sc = s.charAt(i);\n                Character tc = t.charAt(i);\n\n                if(smap.containsKey(sc))\n                {\n                    if(smap.get(sc) != tc) return false;\n                }else{\n                    smap.put(sc,tc);\n                }\n\n                if(tmap.containsKey(tc))\n                {\n                    if(tmap.get(tc) != sc) return false;\n                }else{\n                    tmap.put(tc,sc);\n                }\n\n            }\n\n\n        return true;\n    }\n}",
+    "readme": "# 485. Max Consecutive Ones\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven a binary array `nums`, return the maximum number of consecutive `1`'s in the array.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,1,0,1,1,1]\nOutput: 3\nExplanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.\n```\n\n**Example 2:**\n\n```\nInput: nums = [1,0,1,1,0,1]\nOutput: 2\n```\n\n## Constraints\n\n- `1 <= nums.length <= 10^5`\n- `nums[i]` is either `0` or `1`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/max-consecutive-ones/)\n\n## Solution Approach\n\nTraverse the array counting consecutive ones, keeping track of the maximum count.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "560",
+    "title": "RunningSum1D",
+    "path": "560-RunningSum1D",
+    "code": "class Solution {\n    public int[] runningSum(int[] nums) {\n        int[] lst = new int[nums.length];\n\n        int sum = 0;\n        for (int i = 0; i < lst.length; i++) {\n            sum += nums[i];\n            lst[i] = sum;\n        }\n\n        return lst;\n    }\n}",
+    "readme": "# 1480. Running Sum of 1d Array\n\n**Difficulty:** Easy\n\n## Problem\n\nGiven an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`.\n\nReturn the running sum of `nums`.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [1,2,3,4]\nOutput: [1,3,6,10]\nExplanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].\n```\n\n**Example 2:**\n\n```\nInput: nums = [1,1,1,1,1]\nOutput: [1,2,3,4,5]\nExplanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].\n```\n\n**Example 3:**\n\n```\nInput: nums = [3,1,2,10,1]\nOutput: [3,4,6,16,17]\n```\n\n## Constraints\n\n- `1 <= nums.length <= 1000`\n- `-10^6 <= nums[i] <= 10^6`\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/running-sum-of-1d-array/)\n\n## Solution Approach\n\nIterate through array, adding each element to the cumulative sum.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(1) - In-place modification or O(n) for new array\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "643",
+    "title": "MaximumAverageSubarrayI",
+    "path": "643-MaximumAverageSubarrayI",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Maximum Average Subarray I\n\nLeetCode Problem: #643\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "645",
+    "title": "SetMismatch",
+    "path": "645-SetMismatch",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Set Mismatch\n\nLeetCode Problem: #645\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "709",
+    "title": "ToLowerCase",
+    "path": "709-ToLowerCase",
+    "code": "\nclass Solution {\n\n    public String toLowerCase(String s) {\n        StringBuilder sb = new StringBuilder();\n        int n = s.length();\n        for (int i = 0; i < n; i++) {\n            char c = s.charAt(i);\n            if (c >= 65 && c <= 90) {\n                char ch = (char) (c + 32);\n                sb.append(ch);\n            } else {\n                sb.append(c);\n            }\n        }\n\n        return sb.toString();\n    }\n}\n",
+    "readme": "# 709. To Lower Case\n\n**Difficulty:** Easy\n\n## Problem\n\nImplement function `toLowerCase()` that converts a string to lowercase. All uppercase letters in the string should be converted to their corresponding lowercase letters; other characters should remain unchanged.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: s = \"Hello\"\nOutput: \"hello\"\n```\n\n**Example 2:**\n\n```\nInput: s = \"here\"\nOutput: \"here\"\n```\n\n## Constraints\n\n- `1 <= s.length <= 10^5`\n- `s` consists of ASCII characters.\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/to-lower-case/)\n\n709. To Lower Case\n     Solved\n     Easy\n     Topics\n     premium lock icon\n     Companies\n     Hint\n     Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.\n\nExample 1:\n\nInput: s = \"Hello\"\nOutput: \"hello\"\nExample 2:\n\nInput: s = \"here\"\nOutput: \"here\"\nExample 3:\n\nInput: s = \"LOVELY\"\nOutput: \"lovely\"\n\nConstraints:\n\n1 <= s.length <= 100\ns consists of printable ASCII characters.\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "747",
+    "title": "LargestNumberAtLeastTwiceOfOthers",
+    "path": "747-LargestNumberAtLeastTwiceOfOthers",
+    "code": "class Solution {\n    public int dominantIndex(int[] nums) {\n        int max = 0;\n        for (int i = 0; i < nums.length; i++) {\n            if (nums[i] > nums[max])\n                max = i;\n        }\n        for (int i = 0; i < nums.length; i++) {\n            if (nums[i] != nums[max] && nums[max] < nums[i] * 2) {\n                System.out.println(nums[i]);\n                return -1;\n            }\n        }\n\n        return max;\n\n    }\n}",
+    "readme": "# 747. Largest Number At Least Twice of Others\n\n**Difficulty:** Easy\n\n## Problem\n\nYou are given an integer array `nums` where the largest integer is unique.\n\nDetermine whether the largest element in the array is at least twice as much as every other number in the array. If it is, return the index of the largest element, or return `-1` otherwise.\n\n## Examples\n\n**Example 1:**\n\n```\nInput: nums = [3,6,1,0]\nOutput: 1\nExplanation: 6 is the largest integer.\nFor every other number in the array x, 6 is at least twice as big as x.\nThe index of value 6 is 1, so we return 1.\n```\n\n**Example 2:**\n\n```\nInput: nums = [1,2,3,4]\nOutput: -1\nExplanation: 4 is less than twice the value of 3, so we return -1.\n```\n\n## Constraints\n\n- `2 <= nums.length <= 50`\n- `0 <= nums[i] <= 100`\n- The largest element in `nums` is unique\n\n## Links\n\n- [LeetCode Problem](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)\n\n## Solution Approach\n\nFind the largest and second-largest elements, then check if largest >= 2 \\* second-largest.\n\n## Complexity Analysis\n\n- **Time Complexity:** O(n) - Single pass through array\n- **Space Complexity:** O(1) - Constant space\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  },
+  {
+    "id": "977",
+    "title": "SquaresofaSortedArray",
+    "path": "977-SquaresofaSortedArray",
+    "code": "// TODO: Add your solution code here\n// You can copy from your LeetCode submission\n",
+    "readme": "# Squares of a Sorted Array\n\nLeetCode Problem: #977\n\n## Solution\nSee `Solution.java` for the implementation.\n\n---\nProfile: https://leetcode.com/u/havyasu2005/\n",
+    "tags": [],
+    "difficulty": null,
+    "solved": false
+  }
+]

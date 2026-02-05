@@ -1,35 +1,16 @@
 class Solution {
-    public boolean isIsomorphic(String s, String t) {
-            HashMap<Character,Character> smap = new HashMap<>();
-            HashMap<Character,Character> tmap = new HashMap<>();
-
-
-            if(s.length() != t.length()){
-                return false;
-            }a
-
-            for(int i=0;i<s.length();i++){
-
-                Character sc = s.charAt(i);
-                Character tc = t.charAt(i);
-
-                if(smap.containsKey(sc))
-                {
-                    if(smap.get(sc) != tc) return false;
-                }else{
-                    smap.put(sc,tc);
-                }
-
-                if(tmap.containsKey(tc))
-                {
-                    if(tmap.get(tc) != sc) return false;
-                }else{
-                    tmap.put(tc,sc);
-                }
-
+    public int findMaxConsecutiveOnes(int[] nums) {
+        int count=0;
+        int maxcount=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i] == 1){
+                count++;
+                maxcount = Math.max(count,maxcount);
+            }else{
+                count=0;
             }
+        }
 
-
-        return true;
+        return maxcount;
     }
 }

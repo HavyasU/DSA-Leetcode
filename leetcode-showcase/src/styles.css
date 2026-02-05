@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap");
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  color-scheme: dark;
+}
+
+@theme {
+  --color-dark-bg: #0a0a0a;
+  --color-dark-card: #171717;
+  --color-dark-border: #262626;
+  --color-dark-text: #ededed;
+  --color-dark-muted: #a1a1aa;
+
+  --color-brand-blue: #3b82f6;
+  --color-brand-purple: #8b5cf6;
+  --image-brand-gradient: linear-gradient(to right, #3b82f6, #8b5cf6);
+
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-dark-bg);
+  background-image:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(59, 130, 246, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(139, 92, 246, 0.1) 0%,
+      transparent 50%
+    );
+  background-attachment: fixed;
+  color: var(--color-dark-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar for Sidebar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Thinner */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Global Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+  border: 2px solid #0a0a0a; /* Padding effect */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+/* LeetCode Content Fixes */
+.leetcode-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border: 1px solid var(--color-dark-border);
+}
+
+.leetcode-content pre {
+  background: #1e1e1e !important;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-dark-border);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: #e6e6e6;
+}
+
+.leetcode-content code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-family: var(--font-mono);
+}
+
+.leetcode-content ul,
+.leetcode-content ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.leetcode-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Glass effect utilities */
+.glass {
+  background: rgba(23, 23, 23, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel {
+  background: rgba(23, 23, 23, 0.6); /* Slightly more opaque */
+  backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}

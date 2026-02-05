@@ -1,2 +1,19 @@
-// TODO: Add your solution code here
-// You can copy from your LeetCode submission
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        int n =nums.length;
+        List<Integer> lst = new ArrayList<>();
+        Set<Integer> hs = new HashSet<>();
+        for(int i=0;i<n;i++){
+            hs.add(nums[i]);
+        }
+
+        for(int i=1;i<=n;i++){
+            if(!hs.contains(i)){
+                lst.add(i);
+            }
+        }
+
+
+        return lst;
+    }
+}
