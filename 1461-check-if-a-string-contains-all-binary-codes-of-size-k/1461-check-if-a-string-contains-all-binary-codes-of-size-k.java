@@ -4,20 +4,14 @@ class Solution {
         int end = 0;
         int n = s.length();
         HashSet<String> set = new HashSet<>();
-        StringBuilder sb = new StringBuilder();
         while(end<n){
-            while(end < n && ((end-start)+1)<=k){
-                sb.append(s.charAt(end));
+            while(end < n && ((end-start)+1)<k){
                 end++;
             }
-            if((end-start)==k)
-                set.add(sb.toString());
-            sb.setLength(0);
-
-            if(start<n){
-                start++;
-                end = start;
+            if(end<n && (end-start+1)==k){
+                set.add(s.substring(start,end+1));
             }
+            start++;
         }
 
         for(String ss:set){
