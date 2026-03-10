@@ -81,6 +81,7 @@ java Solution
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## String
@@ -93,4 +94,20 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 <!---LeetCode Topics End-->
