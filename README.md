@@ -93,6 +93,7 @@ java Solution
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/HavyasU/DSA-Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3798-largest-even-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/3798-largest-even-number/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
