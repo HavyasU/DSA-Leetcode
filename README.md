@@ -122,5 +122,14 @@ java Solution
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->
