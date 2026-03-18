@@ -107,6 +107,7 @@ java Solution
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
+| [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,4 +139,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 <!---LeetCode Topics End-->
