@@ -7,7 +7,6 @@ class NumArray {
         for(int i=0;i<n;i++){
             sum+=nums[i];
             prefix[i] = sum; 
-            System.out.println(prefix[i]);
         }
     }
     
