@@ -1,18 +1,21 @@
 class NumArray {
-    ArrayList<Integer> lst = new ArrayList<Integer>();
+    int[] prefix;
     public NumArray(int[] nums) {
-        for(int n : nums){
-            lst.add(n);
+        int n = nums.length;
+        prefix = new int[n];
+        int sum = 0;
+        for(int i=0;i<n;i++){
+            sum+=nums[i];
+            prefix[i] = sum; 
+            System.out.println(prefix[i]);
         }
     }
     
     public int sumRange(int left, int right) {
-        int sum=0;
-        while(left<=right){
-            sum+=lst.get(left);
-            left++;
+        if(left==0){
+            return prefix[right];
         }
-        return sum;
+        return prefix[right] - prefix[(left-1)];
     }
 }
 
