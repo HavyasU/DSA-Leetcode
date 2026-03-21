@@ -90,6 +90,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0520-detect-capital](https://github.com/HavyasU/DSA-Leetcode/tree/main/0520-detect-capital/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
@@ -113,6 +114,7 @@ java Solution
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 ## Binary Search
