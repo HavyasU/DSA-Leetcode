@@ -5,13 +5,12 @@ class Solution {
         boolean isPalindrome = true;
 
         while(left<right){
-            while(left<right && !Character.isLetter(s.charAt(left))){
+            while(left<right && !Character.isLetterOrDigit(s.charAt(left))){
                 left++;
             }
-            while(left<right && !Character.isLetter(s.charAt(right))){
+            while(left<right && !Character.isLetterOrDigit(s.charAt(right))){
                 right--;
             }
-
             if(Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right)))
             {
                 isPalindrome = false;
