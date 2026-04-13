@@ -117,6 +117,7 @@ java Solution
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [1848-minimum-distance-to-the-target-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
