@@ -81,6 +81,7 @@ java Solution
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
@@ -110,6 +111,7 @@ java Solution
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
