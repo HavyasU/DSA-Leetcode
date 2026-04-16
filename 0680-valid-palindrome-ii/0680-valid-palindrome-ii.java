@@ -13,8 +13,8 @@ class Solution {
         int end = n-1;
 
         while(start<end){
-            if(s.charAt(start)!=s.charAt(end)){
-                        return isPalindrome(s,start+1,end) || isPalindrome(s,start+1,end);
+            if(s.charAt(start)!=s.charAt(end)){                 
+            return isPalindrome(s,start+1,end) || isPalindrome(s,start,end-1);
             }else{
                 start++;
                 end--;
