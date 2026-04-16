@@ -97,6 +97,7 @@ java Solution
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0344-reverse-string/) | Easy |
 | [0520-detect-capital](https://github.com/HavyasU/DSA-Leetcode/tree/main/0520-detect-capital/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1078-occurrences-after-bigram](https://github.com/HavyasU/DSA-Leetcode/tree/main/1078-occurrences-after-bigram/) | Easy |
@@ -126,6 +127,7 @@ java Solution
 | [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0344-reverse-string/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -167,4 +169,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 <!---LeetCode Topics End-->
