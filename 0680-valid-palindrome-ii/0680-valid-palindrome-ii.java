@@ -28,14 +28,12 @@ class Solution {
                 }else{
                     return false;
                 }
-            }
-
-            if(s.charAt(start)==s.charAt(end)){
+            }else{
                 start++;
                 end--;
-            }else{
-                return false;
             }
+
+           
         }
         if(start<end){
             return false;
