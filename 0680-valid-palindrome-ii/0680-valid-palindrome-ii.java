@@ -25,8 +25,6 @@ class Solution {
                         return false;
                     }
                     deleted = true;
-                }else{
-                    return false;
                 }
             }else{
                 start++;
