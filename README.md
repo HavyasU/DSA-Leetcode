@@ -85,6 +85,7 @@ java Solution
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+| [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
@@ -96,6 +97,7 @@ java Solution
 | [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0344-reverse-string/) | Easy |
+| [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0520-detect-capital](https://github.com/HavyasU/DSA-Leetcode/tree/main/0520-detect-capital/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
@@ -174,5 +176,6 @@ java Solution
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 <!---LeetCode Topics End-->
