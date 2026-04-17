@@ -9,17 +9,15 @@ class Solution {
 
         int slen = s.length;
         int glen = g.length;
+
         while(available<slen && need < glen){
-            while(available < slen &&  need < glen && g[need]>s[available]){
-                available++;
-            }
-            if(available == slen){
-                break;
-            }
+            
             if(g[need]<=s[available]){
                 satisfy++;
                 available++;
                 need++;
+            }else{
+                available++;
             }
         }
 
