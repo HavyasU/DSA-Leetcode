@@ -7,9 +7,15 @@ class Solution {
         }
 
 
-        for(Map.Entry<Integer,Integer> ele : freq.entrySet()){
-            if(ele.getValue() == 1){
-                sum+=ele.getKey();
+        // for(Map.Entry<Integer,Integer> ele : freq.entrySet()){
+        //     if(ele.getValue() == 1){
+        //         sum+=ele.getKey();
+        //     }
+        // }
+
+        for(int n:nums){
+            if(freq.get(n) == 1){
+                sum+=n;
             }
         }
         return sum;
