@@ -101,6 +101,7 @@ java Solution
 | [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0520-detect-capital](https://github.com/HavyasU/DSA-Leetcode/tree/main/0520-detect-capital/) | Easy |
 | [0541-reverse-string-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0541-reverse-string-ii/) | Easy |
+| [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
@@ -136,6 +137,7 @@ java Solution
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0541-reverse-string-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0541-reverse-string-ii/) | Easy |
+| [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 ## Binary Search
