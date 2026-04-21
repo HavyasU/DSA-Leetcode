@@ -8,6 +8,7 @@ class Solution {
             for(int j=i;j<n;j++){
                 sb.append(s.charAt(j));
                 boolean isNice = true;
+                String currentStr = sb.toString();
                 for(int k=0;k<sb.length();k++){
                     char toggled;
                     char cur = sb.charAt(k);
@@ -16,8 +17,9 @@ class Solution {
                     }else{
                         toggled = Character.toUpperCase(cur);
                     }
-                    if(!sb.toString().contains(toggled+"")){    
+                    if(!currentStr.contains(toggled+"")){    
                         isNice = false;
+                        
                     }
                 }
                 if(isNice){
