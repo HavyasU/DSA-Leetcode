@@ -109,6 +109,7 @@ java Solution
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1078-occurrences-after-bigram](https://github.com/HavyasU/DSA-Leetcode/tree/main/1078-occurrences-after-bigram/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
+| [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/HavyasU/DSA-Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
@@ -131,6 +132,7 @@ java Solution
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
+| [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
