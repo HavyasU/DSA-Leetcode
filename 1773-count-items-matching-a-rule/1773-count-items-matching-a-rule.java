@@ -12,7 +12,6 @@ class Solution {
 
         for(int i=0;i<items.size();i++){
                int index = getIndex(ruleKey);
-               System.out.println(items.get(i).get(index));
                if(items.get(i).get(index).equals(ruleValue)){
                 count++;
                }
