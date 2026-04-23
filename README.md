@@ -83,6 +83,7 @@ java Solution
 | ------- | ------- |
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
@@ -124,6 +125,7 @@ java Solution
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
@@ -180,6 +182,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/HavyasU/DSA-Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 ## Prefix Sum
