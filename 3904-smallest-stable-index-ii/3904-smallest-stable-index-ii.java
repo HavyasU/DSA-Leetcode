@@ -15,12 +15,11 @@ class Solution {
 
         max = nums[0];
         for(int i=0;i<n;i++){
-            
+
             if(nums[i]>max){
                 max = nums[i];
             }
             if((max-min[i])<=k){
-                System.out.println(max+" "+min[i]);
                 return i;
             }
            
