@@ -126,6 +126,7 @@ java Solution
 | ------- | ------- |
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/HavyasU/DSA-Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
@@ -160,6 +161,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/HavyasU/DSA-Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/HavyasU/DSA-Leetcode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
