@@ -139,6 +139,7 @@ java Solution
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0704-binary-search](https://github.com/HavyasU/DSA-Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/HavyasU/DSA-Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
@@ -170,6 +171,7 @@ java Solution
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/HavyasU/DSA-Leetcode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
+| [0704-binary-search](https://github.com/HavyasU/DSA-Leetcode/tree/main/0704-binary-search/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
