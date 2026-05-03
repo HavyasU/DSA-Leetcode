@@ -107,6 +107,7 @@ java Solution
 | [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
+| [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1078-occurrences-after-bigram](https://github.com/HavyasU/DSA-Leetcode/tree/main/1078-occurrences-after-bigram/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
@@ -229,4 +230,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/HavyasU/DSA-Leetcode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
