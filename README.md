@@ -131,6 +131,7 @@ java Solution
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/HavyasU/DSA-Leetcode/tree/main/0035-search-insert-position/) | Easy |
+| [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
@@ -193,6 +194,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/0007-reverse-integer/) | Medium |
+| [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Recursion
@@ -255,4 +257,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 <!---LeetCode Topics End-->
