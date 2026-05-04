@@ -151,6 +151,7 @@ java Solution
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1936-add-minimum-number-of-rungs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1936-add-minimum-number-of-rungs/) | Medium |
 | [3903-smallest-stable-index-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/3904-smallest-stable-index-ii/) | Medium |
@@ -265,4 +266,5 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 <!---LeetCode Topics End-->
