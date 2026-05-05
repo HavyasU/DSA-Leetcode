@@ -158,6 +158,7 @@ java Solution
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0344-reverse-string/) | Easy |
@@ -267,4 +268,8 @@ java Solution
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
