@@ -225,6 +225,7 @@ java Solution
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -248,6 +249,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0032-longest-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
