@@ -21,7 +21,6 @@ class Solution {
                 if(sum > maxsum)
                     maxsum = sum;
             }
-            System.out.println(start + " " + end + " " + sum);
             
         }
         return maxsum;
