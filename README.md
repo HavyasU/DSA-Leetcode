@@ -88,6 +88,7 @@ java Solution
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
@@ -149,6 +150,7 @@ java Solution
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0704-binary-search](https://github.com/HavyasU/DSA-Leetcode/tree/main/0704-binary-search/) | Easy |
+| [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
@@ -239,6 +241,7 @@ java Solution
 | ------- | ------- |
 | [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
+| [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -297,4 +300,9 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 <!---LeetCode Topics End-->
