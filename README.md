@@ -145,6 +145,7 @@ java Solution
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0704-binary-search](https://github.com/HavyasU/DSA-Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
@@ -258,6 +259,7 @@ java Solution
 | ------- | ------- |
 | [0032-longest-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
+| [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -275,6 +277,7 @@ java Solution
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Matrix
