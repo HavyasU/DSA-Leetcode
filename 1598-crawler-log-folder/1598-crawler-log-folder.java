@@ -1,20 +1,20 @@
 class Solution {
     public int minOperations(String[] logs) {
-        Stack<String> stk = new Stack<>();
+        int count=0;
 
         for(String log : logs){
             switch(log){
                 case "../":
-                    if(!stk.isEmpty())
-                    stk.pop();
+                    if(count>0)
+                    count--;
                     break;
                 case "./":
                     break;
                 default:
-                    stk.push(log);
+                    count++;
             }
         }
 
-        return stk.size();
+        return count;
     }
 }
