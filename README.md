@@ -111,6 +111,7 @@ java Solution
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
+| [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1078-occurrences-after-bigram](https://github.com/HavyasU/DSA-Leetcode/tree/main/1078-occurrences-after-bigram/) | Easy |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/HavyasU/DSA-Leetcode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
@@ -176,6 +177,7 @@ java Solution
 | [0541-reverse-string-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0541-reverse-string-ii/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [3884-first-matching-character-from-both-ends](https://github.com/HavyasU/DSA-Leetcode/tree/main/3884-first-matching-character-from-both-ends/) | Easy |
@@ -262,6 +264,7 @@ java Solution
 | [0032-longest-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
+| [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1598-crawler-log-folder](https://github.com/HavyasU/DSA-Leetcode/tree/main/1598-crawler-log-folder/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Divide and Conquer
@@ -281,6 +284,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
+| [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Matrix
