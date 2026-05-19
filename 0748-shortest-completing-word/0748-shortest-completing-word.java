@@ -19,9 +19,7 @@ class Solution {
             }
             int count = 0;
             for(char c : wordmap.keySet()){
-                if(map.containsKey(c)){
-                  count+=Math.min(map.get(c),wordmap.get(c));
-                }
+                  count+=Math.min(map.getOrDefault(c,0),wordmap.getOrDefault(c,0));
             }
             if(mincount<count || (mincount==count && word.length() <  res.length())){
                     mincount = count;
