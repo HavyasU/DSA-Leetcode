@@ -7,11 +7,11 @@ class Solution {
         for(int i=0;i<n;i++){
             map.put(A[i],map.getOrDefault(A[i],0)+1);
             map.put(B[i],map.getOrDefault(B[i],0)+1);
-            count = 0;
-            for(int key : map.keySet()){
-                if(map.get(key)==2){
+            if(map.get(A[i])==2){
                     count++;
-                }
+            }
+            if(A[i]!=B[i] && map.get(B[i])==2){
+                    count++;
             }
             prefix[i] = count;
         }
