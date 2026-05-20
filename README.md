@@ -91,6 +91,7 @@ java Solution
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0961-n-repeated-element-in-size-2n-array/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
@@ -163,6 +164,7 @@ java Solution
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0961-n-repeated-element-in-size-2n-array/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/HavyasU/DSA-Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
