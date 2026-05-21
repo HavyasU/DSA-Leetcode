@@ -115,6 +115,7 @@ java Solution
 | [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0520-detect-capital](https://github.com/HavyasU/DSA-Leetcode/tree/main/0520-detect-capital/) | Easy |
 | [0541-reverse-string-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0541-reverse-string-ii/) | Easy |
+| [0551-student-attendance-record-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/0551-student-attendance-record-i/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
