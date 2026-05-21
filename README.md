@@ -183,6 +183,7 @@ java Solution
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
+| [2644-find-the-maximum-divisibility-score](https://github.com/HavyasU/DSA-Leetcode/tree/main/2644-find-the-maximum-divisibility-score/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/HavyasU/DSA-Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
