@@ -209,6 +209,7 @@ java Solution
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
+| [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3884-first-matching-character-from-both-ends](https://github.com/HavyasU/DSA-Leetcode/tree/main/3884-first-matching-character-from-both-ends/) | Easy |
 ## Binary Search
@@ -253,6 +254,7 @@ java Solution
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
+| [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2544-alternating-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/2544-alternating-digit-sum/) | Easy |
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
@@ -351,4 +353,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
+## Brainteaser
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 <!---LeetCode Topics End-->
