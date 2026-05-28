@@ -157,6 +157,7 @@ java Solution
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0228-summary-ranges](https://github.com/HavyasU/DSA-Leetcode/tree/main/0228-summary-ranges/) | Easy |
 | [0260-single-number-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0260-single-number-iii/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/HavyasU/DSA-Leetcode/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
