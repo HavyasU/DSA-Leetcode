@@ -84,6 +84,7 @@ java Solution
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/HavyasU/DSA-Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
@@ -167,6 +168,7 @@ java Solution
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HavyasU/DSA-Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
+| [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0228-summary-ranges](https://github.com/HavyasU/DSA-Leetcode/tree/main/0228-summary-ranges/) | Easy |
 | [0260-single-number-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0260-single-number-iii/) | Medium |
@@ -252,6 +254,7 @@ java Solution
 | [0056-merge-intervals](https://github.com/HavyasU/DSA-Leetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/HavyasU/DSA-Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0088-merge-sorted-array/) | Easy |
+| [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -319,6 +322,7 @@ java Solution
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0884-uncommon-words-from-two-sentences](https://github.com/HavyasU/DSA-Leetcode/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
@@ -344,6 +348,7 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/HavyasU/DSA-Leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
