@@ -278,6 +278,7 @@ java Solution
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
@@ -288,6 +289,7 @@ java Solution
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
