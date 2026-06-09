@@ -22,7 +22,6 @@ class Solution {
             idx++;
             list = list.next;
         }
-        System.out.println(idx);
         return list;
     }
 }
