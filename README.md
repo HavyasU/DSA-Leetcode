@@ -398,6 +398,7 @@ java Solution
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0237-delete-node-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Hash Function
