@@ -220,6 +220,7 @@ java Solution
 | [0015-3sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/HavyasU/DSA-Leetcode/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0018-4sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0031-next-permutation](https://github.com/HavyasU/DSA-Leetcode/tree/main/0031-next-permutation/) | Medium |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/HavyasU/DSA-Leetcode/tree/main/0075-sort-colors/) | Medium |
@@ -395,6 +396,7 @@ java Solution
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
