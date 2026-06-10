@@ -289,6 +289,7 @@ java Solution
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
@@ -303,6 +304,7 @@ java Solution
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 ## Sliding Window
@@ -396,6 +398,7 @@ java Solution
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0237-delete-node-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
