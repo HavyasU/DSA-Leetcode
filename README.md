@@ -135,6 +135,7 @@ java Solution
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 | [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/HavyasU/DSA-Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
+| [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
@@ -239,6 +240,7 @@ java Solution
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
+| [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3884-first-matching-character-from-both-ends](https://github.com/HavyasU/DSA-Leetcode/tree/main/3884-first-matching-character-from-both-ends/) | Easy |
@@ -363,6 +365,7 @@ java Solution
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1598-crawler-log-folder](https://github.com/HavyasU/DSA-Leetcode/tree/main/1598-crawler-log-folder/) | Easy |
+| [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
