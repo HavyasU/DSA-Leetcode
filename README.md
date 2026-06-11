@@ -205,6 +205,7 @@ java Solution
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1936-add-minimum-number-of-rungs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1936-add-minimum-number-of-rungs/) | Medium |
+| [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
@@ -387,6 +388,7 @@ java Solution
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
+| [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [3701-compute-alternating-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3701-compute-alternating-sum/) | Easy |
@@ -443,4 +445,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/HavyasU/DSA-Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 <!---LeetCode Topics End-->
