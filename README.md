@@ -311,6 +311,7 @@ java Solution
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2544-alternating-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/2544-alternating-digit-sum/) | Easy |
+| [2894-divisible-and-non-divisible-sums-difference](https://github.com/HavyasU/DSA-Leetcode/tree/main/2894-divisible-and-non-divisible-sums-difference/) | Easy |
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
