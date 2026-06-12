@@ -6,7 +6,6 @@ class Solution {
         String thirdRow = "zxcvbnm";
 
         String merged = String.join(":",words)+":";
-        System.out.println(merged);
         int latestPoint = 0;
         int valid1 = 0;
         int valid2 = 0;
