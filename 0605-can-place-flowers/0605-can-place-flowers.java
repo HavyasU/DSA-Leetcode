@@ -21,9 +21,7 @@ class Solution {
                 plantableCount++;
                 flowerbed[i] = 1;
             }
-            if(plantableCount>=n){
-                return true;
-            }
+          
         }
         return plantableCount>=n;
 
