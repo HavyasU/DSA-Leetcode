@@ -5,26 +5,28 @@ class Solution {
         String secondRow = "asdfghjkl";
         String thirdRow = "zxcvbnm";
 
-        String merged = String.join(":",words)+":";
+        String Original = String.join(":",words)+":";
+        String merged = Original.toLowerCase();
         int latestPoint = 0;
         int valid1 = 0;
         int valid2 = 0;
         int valid3 = 0;
+        
         for(int i=0;i<merged.length();i++){
-            char c = merged.toLowerCase().charAt(i);
+            char c = merged.charAt(i);
             if(c==':'){
                 int len = i-latestPoint;
                 if(valid1 == len || valid2==len || valid3==len){
-                    lst.add(merged.substring(latestPoint,i));
+                    lst.add(Original.substring(latestPoint,i));
                 }
                 latestPoint = i+1; 
                 valid1=0;
                 valid2=0;
                 valid3=0;
             }else{
-            if(firstRow.contains(c+"")) valid1++;
-            if(secondRow.contains(c+"")) valid2++;
-            if(thirdRow.contains(c+"")) valid3++;
+            if(firstRow.indexOf(c)!=-1) valid1++;
+            if(secondRow.indexOf(c)!=-1) valid2++;
+            if(thirdRow.indexOf(c)!=-1) valid3++;
             }
            
         }
