@@ -5,24 +5,19 @@ class Solution {
         int count = 0;
         int sum = 0;
         int maxval=0;
-        while(count<(n)) {
-            maxval = 0;
+        for(int i=0;i<m;i++){
+                Arrays.sort(grid[i]);
+        }
+        for(int j = 0;j<n;j++){
+            int max = 0;
             for(int i=0;i<m;i++){
-                int rowj=0;
-                for(int j=1;j<n;j++){
-                    if(grid[i][j]>grid[i][rowj]){
-                        rowj = j;
-                    }
-                }
-                if(maxval<grid[i][rowj]){
-                    maxval = grid[i][rowj];
-                }
-                grid[i][rowj] = -1;
+            int cur = grid[i][n-j-1];
+            if(cur>max) max = cur;
             }
-            if(maxval>0)
-            sum+=maxval;
-            count++;
+            sum+=max;
         }
         return sum;
+
+
     }
 }
