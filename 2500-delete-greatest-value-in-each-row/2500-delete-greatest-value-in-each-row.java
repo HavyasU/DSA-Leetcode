@@ -8,22 +8,17 @@ class Solution {
         while(count<(n)) {
             maxval = 0;
             for(int i=0;i<m;i++){
-                int maxindi=i;
-                int maxindj=0;
-                for(int j=0;j<n;j++){
-                    if(grid[i][j] > grid[maxindi][maxindj]){
-                        maxindi = i;
-                        maxindj = j;
+                int rowj=0;
+                for(int j=1;j<n;j++){
+                    if(grid[i][j]>grid[i][rowj]){
+                        rowj = j;
                     }
-                    // System.out.println(grid[i][j] +" "+ grid[maxindi][maxindj]);
                 }
-                if(maxval<grid[maxindi][maxindj]){
-                    maxval = grid[maxindi][maxindj];
+                if(maxval<grid[i][rowj]){
+                    maxval = grid[i][rowj];
                 }
-                // maxval = grid[maxindi][maxindj];
-                grid[maxindi][maxindj] = -1;
+                grid[i][rowj] = -1;
             }
-            System.out.println(count + " " +maxval);
             if(maxval>0)
             sum+=maxval;
             count++;
