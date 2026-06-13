@@ -5,19 +5,25 @@ class Solution {
         int count = 0;
         HashMap<String,Integer> cols = new HashMap<>();
         for(int i = 0; i < n; i++){
-            String val = "";
+            char val[] = new char[n+(n)];
+            int idx = 0;
             for(int j = 0; j < n; j++){
-                val += grid[j][i]+"-";
+                val[idx++] = (char)(grid[j][i] + '0');
+                val[idx++] = '-';
             }
-            cols.put(val,cols.getOrDefault(val,0)+1);
+            String strval = String.valueOf(val);
+            cols.put(strval,cols.getOrDefault(strval,0)+1);
         }
 
         for(int i = 0; i < n; i++){
-            String val = "";
+            char val[] = new char[n+(n)];
+            int idx = 0;
             for(int j = 0; j < n; j++){
-                val += grid[i][j]+"-";
+                val[idx++] = (char)(grid[i][j] + '0');
+                val[idx++] = '-';
             }
-            count += cols.getOrDefault(val,0);
+            String strval = String.valueOf(val);
+            count += cols.getOrDefault(strval,0);
         }
         return count;
     }
