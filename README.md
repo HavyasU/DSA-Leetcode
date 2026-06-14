@@ -85,6 +85,7 @@ java Solution
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/HavyasU/DSA-Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/HavyasU/DSA-Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/HavyasU/DSA-Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/HavyasU/DSA-Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/HavyasU/DSA-Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
@@ -431,6 +432,7 @@ java Solution
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/HavyasU/DSA-Leetcode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/HavyasU/DSA-Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/HavyasU/DSA-Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/HavyasU/DSA-Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
