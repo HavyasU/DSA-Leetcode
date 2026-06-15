@@ -28,6 +28,7 @@ class Solution {
     
     public int getRandom() {
         int steps = rand.nextInt(len);
+        steps = steps%len;
         while(steps>0){
             random = random.next;
             if(random == null){
