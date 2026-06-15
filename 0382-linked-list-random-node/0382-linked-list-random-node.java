@@ -28,12 +28,12 @@ class Solution {
     
     public int getRandom() {
         int steps = rand.nextInt(len);
-        while(steps<len){
+        while(steps>0){
             random = random.next;
             if(random == null){
                 random = head;
             }
-            steps++;
+            steps--;
         }
 
         return random.val;
