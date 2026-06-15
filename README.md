@@ -228,6 +228,7 @@ java Solution
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/HavyasU/DSA-Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/HavyasU/DSA-Leetcode/tree/main/3190-find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3701-compute-alternating-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3701-compute-alternating-sum/) | Easy |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
@@ -330,6 +331,7 @@ java Solution
 | [2544-alternating-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/2544-alternating-digit-sum/) | Easy |
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/HavyasU/DSA-Leetcode/tree/main/2894-divisible-and-non-divisible-sums-difference/) | Easy |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/HavyasU/DSA-Leetcode/tree/main/3190-find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
