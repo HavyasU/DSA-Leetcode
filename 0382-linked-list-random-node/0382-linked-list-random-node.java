@@ -11,29 +11,24 @@
 class Solution {
     ListNode random = null;
     ListNode head = null;
-
     int len = 0;
     Random rand;
 
     public Solution(ListNode head) {
         rand = new Random();
-        random = head;
         this.head = head;
-        while(random!=null){
-            len++;
-            random = random.next;
-        }
         random = head;
+        while(random!=null){
+            random = random.next;
+            len++;
+        }
     }
     
     public int getRandom() {
         int steps = rand.nextInt(len);
-        steps = steps%len;
+        random = head;
         while(steps>0){
             random = random.next;
-            if(random == null){
-                random = head;
-            }
             steps--;
         }
 
