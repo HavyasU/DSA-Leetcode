@@ -320,6 +320,7 @@ java Solution
 | [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0062-unique-paths](https://github.com/HavyasU/DSA-Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
+| [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
@@ -448,6 +449,7 @@ java Solution
 | [0160-intersection-of-two-linked-lists](https://github.com/HavyasU/DSA-Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
+| [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
@@ -495,4 +497,12 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+## Reservoir Sampling
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
+## Randomized
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
 <!---LeetCode Topics End-->
