@@ -262,6 +262,7 @@ java Solution
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3884-first-matching-character-from-both-ends](https://github.com/HavyasU/DSA-Leetcode/tree/main/3884-first-matching-character-from-both-ends/) | Easy |
@@ -449,6 +450,7 @@ java Solution
 | [0237-delete-node-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
