@@ -142,6 +142,7 @@ java Solution
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 | [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/HavyasU/DSA-Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
+| [1945-sum-of-digits-of-string-after-convert](https://github.com/HavyasU/DSA-Leetcode/tree/main/1945-sum-of-digits-of-string-after-convert/) | Easy |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
@@ -426,6 +427,7 @@ java Solution
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
+| [1945-sum-of-digits-of-string-after-convert](https://github.com/HavyasU/DSA-Leetcode/tree/main/1945-sum-of-digits-of-string-after-convert/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
