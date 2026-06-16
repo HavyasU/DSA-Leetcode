@@ -11,7 +11,7 @@ class Solution {
             }else if(c=='#'){
                 sb.append(sb.toString());
             }else{
-                sb = new StringBuilder(sb.reverse().toString());
+                sb.reverse();
             }
         }
         return sb.toString();
