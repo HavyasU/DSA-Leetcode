@@ -1,23 +1,37 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-        int i = nums.length - 2;
+        
+        int breakpoint = -1;
+        int n = nums.length;
 
-        while (i >= 0 && nums[i] >= nums[i + 1]) i--;
-
-        if (i >= 0) {
-            int j = nums.length - 1;
-            while (nums[j] <= nums[i]) j--;
-
-            int temp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = temp;
+        // find breakpoint 
+        for(int i=n-2;i>=0;i--){
+            if(nums[i] < nums[i+1]){
+                breakpoint = i;
+                break;
+            }
         }
 
-        int left = i + 1, right = nums.length - 1;
-        while (left < right) {
-            int temp = nums[left];
-            nums[left++] = nums[right];
-            nums[right--] = temp;
+        if(breakpoint == -1){
+            Arrays.sort(nums);
+            return;
         }
+
+        //swap it with next smallest element that is greater than breakpoint
+        int minind = breakpoint+1;
+        for(int i=breakpoint+1;i<n;i++){
+            if(nums[i] > nums[breakpoint]){
+                if(nums[i] < nums[minind]){
+                    minind = i;
+                }
+            }
+        }
+        int temp = nums[minind];
+        nums[minind] = nums[breakpoint];
+        nums[breakpoint] = temp;
+
+        // sort elemets after the breakpoint  to create a smaller value
+        Arrays.sort(nums,breakpoint+1,n);
+
     }
 }
