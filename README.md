@@ -337,6 +337,7 @@ java Solution
 | [2413-smallest-even-multiple](https://github.com/HavyasU/DSA-Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
 | [2469-convert-the-temperature](https://github.com/HavyasU/DSA-Leetcode/tree/main/2469-convert-the-temperature/) | Easy |
 | [2544-alternating-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/2544-alternating-digit-sum/) | Easy |
+| [2579-count-total-number-of-colored-cells](https://github.com/HavyasU/DSA-Leetcode/tree/main/2579-count-total-number-of-colored-cells/) | Medium |
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/HavyasU/DSA-Leetcode/tree/main/2894-divisible-and-non-divisible-sums-difference/) | Easy |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/HavyasU/DSA-Leetcode/tree/main/3190-find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
