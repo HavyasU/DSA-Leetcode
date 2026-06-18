@@ -520,4 +520,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
+## Shell
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0193-valid-phone-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0193-valid-phone-numbers/) | Easy |
 <!---LeetCode Topics End-->
