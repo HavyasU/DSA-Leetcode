@@ -108,6 +108,7 @@ java Solution
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
+| [2347-best-poker-hand](https://github.com/HavyasU/DSA-Leetcode/tree/main/2347-best-poker-hand/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
@@ -225,6 +226,7 @@ java Solution
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1936-add-minimum-number-of-rungs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1936-add-minimum-number-of-rungs/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
+| [2347-best-poker-hand](https://github.com/HavyasU/DSA-Leetcode/tree/main/2347-best-poker-hand/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -400,6 +402,7 @@ java Solution
 | [0884-uncommon-words-from-two-sentences](https://github.com/HavyasU/DSA-Leetcode/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
+| [2347-best-poker-hand](https://github.com/HavyasU/DSA-Leetcode/tree/main/2347-best-poker-hand/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/HavyasU/DSA-Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Dynamic Programming
