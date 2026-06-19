@@ -13,18 +13,13 @@ class Solution {
             leftsum+=nums[i];
             rightsum+=nums[n-1-i];
         }
-        for(int i=0;i<n;i++){
-            if(i==0){
-                if(suffix[i]==0) return i;
-            }
-            if(i==n-1){
-                if(prefix[i] == 0) return i;
-            }
-
+        if(suffix[0]==0) return 0;
+        for(int i=1;i<n-1;i++){
             if(prefix[i] == suffix[i]){
                 return i;
             }
         }
+        if(prefix[n-1]==0) return n-1;
 
         return -1;
 
