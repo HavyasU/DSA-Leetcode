@@ -3,35 +3,30 @@ class Solution {
         int samelen = 0;
         Arrays.sort(suits);
         Arrays.sort(ranks);
-        int count = 1;
-        int max=0;
+        int suitcount = 1;
+        int rankcount = 1;
+        int suitmax=0;
+        int rankmax=0;
         for(int i=1;i<suits.length;i++){
             if(suits[i] == suits[i-1])
             {
-                count++;
+                suitcount++;
             }else{
-                count = 1;
+                suitcount = 1;
             }
-            max = Math.max(max,count);
-        }
-
-        if(max == 5) return "Flush";
-        max = 0;
-        count = 1;
-        for(int i=1;i<ranks.length;i++){
             if(ranks[i] == ranks[i-1])
             {
-                count++;
+                rankcount++;
             }else{
-                count = 1;
+                rankcount = 1;
             }
-            max = Math.max(max,count);
+            suitmax = Math.max(suitmax,suitcount);
+            rankmax = Math.max(rankmax,rankcount);
         }
-        if(max >=3) return "Three of a Kind";
-        else if(max==2) return "Pair";
 
-
-
+        if(suitmax == 5) return "Flush";
+        else if(rankmax >=3) return "Three of a Kind";
+        else if(rankmax==2) return "Pair";
         return "High Card";
     }
 }
