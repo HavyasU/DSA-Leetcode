@@ -27,7 +27,6 @@ class Solution {
             }
             max = Math.max(max,count);
         }
-            System.out.println(max);
         if(max >=3) return "Three of a Kind";
         else if(max==2) return "Pair";
 
