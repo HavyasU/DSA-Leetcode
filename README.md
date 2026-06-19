@@ -233,6 +233,7 @@ java Solution
 | [2869-minimum-operations-to-collect-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/2869-minimum-operations-to-collect-elements/) | Easy |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/HavyasU/DSA-Leetcode/tree/main/3190-find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3427-sum-of-variable-length-subarrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/3427-sum-of-variable-length-subarrays/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3701-compute-alternating-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3701-compute-alternating-sum/) | Easy |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
@@ -369,6 +370,7 @@ java Solution
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/HavyasU/DSA-Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [3427-sum-of-variable-length-subarrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/3427-sum-of-variable-length-subarrays/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
