@@ -12,7 +12,6 @@ class Solution {
         return '\0';
     }
     public boolean isValid(String s) {
-        if(s.length() %2 != 0) return false;
         Stack<Character> stk = new Stack<>();
 
         for(char c : s.toCharArray()){
