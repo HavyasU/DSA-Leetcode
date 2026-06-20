@@ -7,11 +7,9 @@ class Solution {
             char c[] = s.toCharArray();
             Arrays.sort(c);
             String st = Arrays.toString(c);
-            if(map.containsKey(st)){
-                map.get(st).add(s);
-            }else{
-                map.put(st, new ArrayList<>(List.of(s)));
-            }
+            List<String> list = map.getOrDefault(st, new ArrayList<>());
+            list.add(s);
+            map.put(st, list);
         } 
 
         List<List<String>> lst = new ArrayList<>();
