@@ -18,8 +18,7 @@ class Solution {
             if(c=='(' || c=='['  || c=='{'){
                 stk.add(c);
             }else{
-                if(stk.isEmpty()) return false;
-                if(stk.pop() != reverse(c)){
+                if(stk.isEmpty() || stk.pop() != reverse(c)){
                     return false;
                 }
             }
