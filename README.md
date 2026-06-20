@@ -214,6 +214,7 @@ java Solution
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0717-1-bit-and-2-bit-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0717-1-bit-and-2-bit-characters/) | Easy |
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
+| [0739-daily-temperatures](https://github.com/HavyasU/DSA-Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0961-n-repeated-element-in-size-2n-array/) | Easy |
@@ -430,6 +431,7 @@ java Solution
 | [0155-min-stack](https://github.com/HavyasU/DSA-Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
+| [0739-daily-temperatures](https://github.com/HavyasU/DSA-Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1598-crawler-log-folder](https://github.com/HavyasU/DSA-Leetcode/tree/main/1598-crawler-log-folder/) | Easy |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
@@ -547,4 +549,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0193-valid-phone-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0193-valid-phone-numbers/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/HavyasU/DSA-Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
