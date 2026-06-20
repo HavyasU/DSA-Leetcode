@@ -8,10 +8,7 @@ class Solution {
             else if(c=='[') stk.add(']');
             else if(c=='{') stk.add('}');
             else{
-                if(stk.isEmpty()) return false;
-                if(stk.pop() != c){
-                    return false;
-                }
+                if (stk.isEmpty() || stk.pop() != c) return false;
             }
         }
 
