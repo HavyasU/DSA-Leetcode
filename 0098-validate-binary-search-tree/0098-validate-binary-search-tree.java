@@ -14,24 +14,27 @@
  * }
  */
 class Solution {
-    public static void Traverse(TreeNode root, List lst){
+    TreeNode prev;
+    public boolean Traverse(TreeNode root){
         if(root==null){
-            return;
+            return true;
         }
-        Traverse(root.left,lst);
-        lst.add(root.val);
-        Traverse(root.right,lst);
-    }
-    public boolean isValidBST(TreeNode root) {
-        List<Integer> lst = new ArrayList<>();
-        Traverse(root,lst);
-        int n = lst.size();
-        for(int i=0;i<n-1;i++){
-            if(lst.get(i)>=lst.get(i+1)){
-                return false;
-            }
+        
+        if(!Traverse(root.left))
+        {
+            return false;
+        }
+        if(prev!=null && prev.val >= root.val){
+            return false;
         }
 
+        prev = root;
+        if(!Traverse(root.right)){
+            return false;
+        }
         return true;
+    }
+    public boolean isValidBST(TreeNode root) {
+        return Traverse(root);
     }
 }
