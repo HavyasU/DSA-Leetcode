@@ -1,19 +1,20 @@
 class Solution {
     public int maxNumberOfBalloons(String text) {
-        String word = "balon";
-        int freq[] = new int[5];
+        HashMap<Character,Integer> map = new HashMap<>();
         for(char c : text.toCharArray()){
-            int ind = word.indexOf(c);
-            if(ind >= 0 && ind < 5){
-                freq[ind]++;
-            }
+            if(c=='b' || c=='l' || c=='a' || c=='o' || c=='n')
+            map.put(c,map.getOrDefault(c,0)+1);
         }
-        freq[2]/=2;
-        freq[3]/=2;
+
+        map.put('b',map.getOrDefault('b',0));
+        map.put('a',map.getOrDefault('a',0));
+        map.put('l',map.getOrDefault('l',0)/2);
+        map.put('o',map.getOrDefault('o',0)/2);
+        map.put('n',map.getOrDefault('n',0));
+
         int min = 999999;
-        for(int i=0;i<5;i++){
-            System.out.println(freq[i]);
-            min = Math.min(min,freq[i]);
+        for(int val : map.values()){
+            min = Math.min(min,val);
         }
         return min;
     }
