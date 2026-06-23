@@ -23,7 +23,6 @@ class Solution {
             even = even.next;
         }
         odd.next = evenHead;
-        System.out.println(odd.val);
         return head;
     }
 }
