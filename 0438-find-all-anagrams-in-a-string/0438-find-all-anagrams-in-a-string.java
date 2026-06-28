@@ -11,14 +11,18 @@ class Solution {
         int freq[] = new int[26];
         List<Integer> lst = new ArrayList<>();
 
-        for(int i=0;i<sn-pn+1;i++){
-            for(int j=0;j<pn;j++){
-                freq[s.charAt(i+j)-'a']++;
+        while(start<sn && end <sn){
+            while((end-start+1)>pn){
+                freq[s.charAt(start++)-'a']--;
             }
-            if(Arrays.equals(freq,parr)){
-                lst.add(i);
+
+            freq[s.charAt(end)-'a']++;
+            if((end-start+1) == pn){
+                if(Arrays.equals(freq,parr)){
+                    lst.add(start);
+                }
             }
-            freq = new int[26];
+            end++;
         }
 
         return lst;
