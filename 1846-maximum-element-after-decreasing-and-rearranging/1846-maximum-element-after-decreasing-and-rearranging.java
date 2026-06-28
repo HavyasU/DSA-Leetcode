@@ -1,16 +1,12 @@
 class Solution {
     public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
         Arrays.sort(arr);
-        int max=-999;
         int n = arr.length;
-        for(int i=0;i<n;i++){
-            if(i==0){
-                if(arr[i]!=1)
-                arr[i] = 1;
-            }else{
-                arr[i] = Math.min(arr[i-1]+1, arr[i]);
-            }
-
+        if(arr[0]!=1)
+            arr[0] = 1;
+        int max=arr[0];
+        for(int i=1;i<n;i++){
+            arr[i] = Math.min(arr[i-1]+1, arr[i]);
             max = Math.max(max,arr[i]);
         }
 
