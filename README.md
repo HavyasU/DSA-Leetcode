@@ -235,6 +235,7 @@ java Solution
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/HavyasU/DSA-Leetcode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -327,6 +328,7 @@ java Solution
 | [0350-intersection-of-two-arrays-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/HavyasU/DSA-Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
@@ -414,6 +416,7 @@ java Solution
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0605-can-place-flowers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0605-can-place-flowers/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1936-add-minimum-number-of-rungs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1936-add-minimum-number-of-rungs/) | Medium |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
 ## Counting
