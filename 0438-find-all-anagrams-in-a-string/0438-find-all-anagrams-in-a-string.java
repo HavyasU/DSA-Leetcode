@@ -1,7 +1,7 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         int start = 0;
-        int end = 0;
+        int end =0;
         int sn = s.length();
         int pn = p.length();
 
@@ -12,10 +12,6 @@ class Solution {
         List<Integer> lst = new ArrayList<>();
 
         while(start<sn && end <sn){
-            while((end-start+1)>pn){
-                freq[s.charAt(start++)-'a']--;
-            }
-
             freq[s.charAt(end)-'a']++;
             if((end-start+1) == pn){
                 if(Arrays.equals(freq,parr)){
@@ -23,6 +19,9 @@ class Solution {
                 }
             }
             end++;
+            while((end-start+1)>pn){
+                freq[s.charAt(start++)-'a']--;
+            }
         }
 
         return lst;
