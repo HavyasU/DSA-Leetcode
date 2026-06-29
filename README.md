@@ -133,6 +133,7 @@ java Solution
 | [0032-longest-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0049-group-anagrams](https://github.com/HavyasU/DSA-Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
+| [0151-reverse-words-in-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0242-valid-anagram](https://github.com/HavyasU/DSA-Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0344-reverse-string/) | Easy |
 | [0409-longest-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0409-longest-palindrome/) | Easy |
@@ -281,6 +282,7 @@ java Solution
 | [0088-merge-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0141-linked-list-cycle](https://github.com/HavyasU/DSA-Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
+| [0151-reverse-words-in-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/HavyasU/DSA-Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
