@@ -7,7 +7,6 @@ class Solution {
         for(int i=1;i<=rep+2;i++){
             sb.append(a);
             if(i<rep) continue;
-            System.out.println(sb.toString());
             if(sb.indexOf(b)>=0){
                 return i;
             }
