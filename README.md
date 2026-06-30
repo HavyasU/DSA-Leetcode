@@ -129,6 +129,7 @@ java Solution
 | [0003-longest-substring-without-repeating-characters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0006-zigzag-conversion](https://github.com/HavyasU/DSA-Leetcode/tree/main/0006-zigzag-conversion/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/HavyasU/DSA-Leetcode/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0014-longest-common-prefix](https://github.com/HavyasU/DSA-Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0032-longest-valid-parentheses](https://github.com/HavyasU/DSA-Leetcode/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0049-group-anagrams](https://github.com/HavyasU/DSA-Leetcode/tree/main/0049-group-anagrams/) | Medium |
@@ -184,6 +185,7 @@ java Solution
 | ------- | ------- |
 | [0001-two-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0011-container-with-most-water](https://github.com/HavyasU/DSA-Leetcode/tree/main/0011-container-with-most-water/) | Medium |
+| [0014-longest-common-prefix](https://github.com/HavyasU/DSA-Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0015-3sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/HavyasU/DSA-Leetcode/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/0018-4sum/) | Medium |
@@ -616,4 +618,8 @@ java Solution
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/HavyasU/DSA-Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/HavyasU/DSA-Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
