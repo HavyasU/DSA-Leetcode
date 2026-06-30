@@ -145,6 +145,7 @@ java Solution
 | [0551-student-attendance-record-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/0551-student-attendance-record-i/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0686-repeated-string-match](https://github.com/HavyasU/DSA-Leetcode/tree/main/0686-repeated-string-match/) | Medium |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
@@ -482,6 +483,7 @@ java Solution
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0686-repeated-string-match](https://github.com/HavyasU/DSA-Leetcode/tree/main/0686-repeated-string-match/) | Medium |
 | [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
