@@ -1,17 +1,10 @@
 class Solution {
     public int distributeCandies(int[] candyType) {
         int n = candyType.length;
-        Arrays.sort(candyType);
-        int types = 0;
+        HashSet<Integer> hs = new HashSet<>();
         for(int i=0;i<n;i++){
-            if(i==0){
-                types++;
-            }else{
-                if(candyType[i]!=candyType[i-1]){
-                    types++;
-                }
-            }
+            hs.add(candyType[i]);
         }
-        return Math.min(types,n/2);
+        return Math.min(hs.size(),n/2);
     }
 }
