@@ -242,6 +242,7 @@ java Solution
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0806-number-of-lines-to-write-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0806-number-of-lines-to-write-string/) | Easy |
 | [0821-shortest-distance-to-a-character](https://github.com/HavyasU/DSA-Leetcode/tree/main/0821-shortest-distance-to-a-character/) | Easy |
+| [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0896-monotonic-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0896-monotonic-array/) | Easy |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0961-n-repeated-element-in-size-2n-array/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
@@ -311,6 +312,7 @@ java Solution
 | [0821-shortest-distance-to-a-character](https://github.com/HavyasU/DSA-Leetcode/tree/main/0821-shortest-distance-to-a-character/) | Easy |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
+| [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
@@ -351,6 +353,7 @@ java Solution
 | [0350-intersection-of-two-arrays-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
+| [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/HavyasU/DSA-Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
@@ -442,6 +445,7 @@ java Solution
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0605-can-place-flowers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0605-can-place-flowers/) | Easy |
 | [0680-valid-palindrome-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0680-valid-palindrome-ii/) | Easy |
+| [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1936-add-minimum-number-of-rungs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1936-add-minimum-number-of-rungs/) | Medium |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
