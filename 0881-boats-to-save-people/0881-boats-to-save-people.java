@@ -9,15 +9,9 @@ class Solution {
         while(start<=end){
            if(start!=end && people[start]+people[end] <= limit){
             start++;
-            end--;
-            count++;
-           }else if(people[end]<=limit){
-            end--;
-            count++;
-           }else if(people[start] <= limit){
-            start++;
-            count++;
            }
+            end--;
+            count++;
         }
         return count;
     }
