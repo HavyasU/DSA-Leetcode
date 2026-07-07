@@ -404,6 +404,7 @@ java Solution
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3516-find-closest-person](https://github.com/HavyasU/DSA-Leetcode/tree/main/3516-find-closest-person/) | Easy |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
