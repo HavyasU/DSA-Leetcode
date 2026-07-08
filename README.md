@@ -387,6 +387,7 @@ java Solution
 | [0062-unique-paths](https://github.com/HavyasU/DSA-Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
+| [0728-self-dividing-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0728-self-dividing-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/1290-convert-binary-number-in-a-linked-list-to-integer/) | Easy |
