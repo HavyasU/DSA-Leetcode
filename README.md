@@ -392,6 +392,7 @@ java Solution
 | [0728-self-dividing-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0728-self-dividing-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
+| [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/1290-convert-binary-number-in-a-linked-list-to-integer/) | Easy |
 | [1344-angle-between-hands-of-a-clock](https://github.com/HavyasU/DSA-Leetcode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
@@ -481,6 +482,7 @@ java Solution
 | [0118-pascals-triangle](https://github.com/HavyasU/DSA-Leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HavyasU/DSA-Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
+| [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -571,6 +573,7 @@ java Solution
 ## Brainteaser
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
@@ -659,4 +662,8 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1042-flower-planting-with-no-adjacent](https://github.com/HavyasU/DSA-Leetcode/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 <!---LeetCode Topics End-->
