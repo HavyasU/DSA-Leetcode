@@ -1,24 +1,21 @@
 class Solution {
     public int findJudge(int n, int[][] trust) {
-        boolean  mat[][] = new boolean[n][n];
+
+        int indegrees[] = new int[n];
+        int outdegrees[] = new int[n];
 
         for(int p[] : trust){
-            mat[p[0]-1][p[1]-1] = true;
+            outdegrees[p[0]-1]++;
+            indegrees[p[1]-1]++;
         }
 
-        for(int i =0;i<n;i++){
-            boolean isvalid = true;
-            for(int j=0;j<n;j++){
-                if(j==i) continue;
-                if(mat[i][j] == true || mat[j][i] == false){
-                    isvalid = false;
-                    break;
-                }
-            }
-            if(isvalid){
+        for(int i=0;i<n;i++){
+            if(outdegrees[i] == 0 && indegrees[i]==(n-1)){
                 return i+1;
             }
         }
+
+        
 
 
         return -1;
