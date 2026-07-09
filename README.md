@@ -188,6 +188,7 @@ java Solution
 | [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/HavyasU/DSA-Leetcode/tree/main/2309-greatest-english-letter-in-upper-and-lower-case/) | Easy |
 | [3745-maximize-expression-of-three-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/3745-maximize-expression-of-three-elements/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -380,6 +381,7 @@ java Solution
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2869-minimum-operations-to-collect-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/2869-minimum-operations-to-collect-elements/) | Easy |
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -486,6 +488,7 @@ java Solution
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
