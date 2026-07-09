@@ -633,6 +633,7 @@ java Solution
 | [0094-binary-tree-inorder-traversal](https://github.com/HavyasU/DSA-Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/HavyasU/DSA-Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [1042-flower-planting-with-no-adjacent](https://github.com/HavyasU/DSA-Leetcode/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -652,5 +653,10 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0997-find-the-town-judge](https://github.com/HavyasU/DSA-Leetcode/tree/main/0997-find-the-town-judge/) | Easy |
+| [1042-flower-planting-with-no-adjacent](https://github.com/HavyasU/DSA-Leetcode/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1791-find-center-of-star-graph](https://github.com/HavyasU/DSA-Leetcode/tree/main/1791-find-center-of-star-graph/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1042-flower-planting-with-no-adjacent](https://github.com/HavyasU/DSA-Leetcode/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 <!---LeetCode Topics End-->
