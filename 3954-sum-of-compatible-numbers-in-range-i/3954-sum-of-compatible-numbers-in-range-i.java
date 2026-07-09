@@ -4,7 +4,7 @@ class Solution {
         int x = 1;
         int sum = 0;
         int i=0;
-        while(i<1000){
+        while(i<500){
             val = Math.abs(n-x);
             if(val<=k && (n & x) == 0){
                 sum+=x;
