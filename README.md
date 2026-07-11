@@ -395,6 +395,7 @@ java Solution
 | [0050-powx-n](https://github.com/HavyasU/DSA-Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0062-unique-paths](https://github.com/HavyasU/DSA-Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0231-power-of-two](https://github.com/HavyasU/DSA-Leetcode/tree/main/0231-power-of-two/) | Easy |
+| [0292-nim-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0292-nim-game/) | Easy |
 | [0382-linked-list-random-node](https://github.com/HavyasU/DSA-Leetcode/tree/main/0382-linked-list-random-node/) | Medium |
 | [0728-self-dividing-numbers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0728-self-dividing-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/HavyasU/DSA-Leetcode/tree/main/0788-rotated-digits/) | Medium |
@@ -583,6 +584,7 @@ java Solution
 ## Brainteaser
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0292-nim-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0292-nim-game/) | Easy |
 | [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 ## Binary Indexed Tree
@@ -675,6 +677,7 @@ java Solution
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0292-nim-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0292-nim-game/) | Easy |
 | [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
