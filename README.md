@@ -219,6 +219,7 @@ java Solution
 | [0128-longest-consecutive-sequence](https://github.com/HavyasU/DSA-Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0162-find-peak-element/) | Medium |
+| [0164-maximum-gap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0164-maximum-gap/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HavyasU/DSA-Leetcode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/HavyasU/DSA-Leetcode/tree/main/0217-contains-duplicate/) | Easy |
@@ -357,6 +358,7 @@ java Solution
 | [0056-merge-intervals](https://github.com/HavyasU/DSA-Leetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/HavyasU/DSA-Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0088-merge-sorted-array/) | Easy |
+| [0164-maximum-gap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0164-maximum-gap/) | Medium |
 | [0169-majority-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/HavyasU/DSA-Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 | [0229-majority-element-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/0229-majority-element-ii/) | Medium |
@@ -674,4 +676,12 @@ java Solution
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1025-divisor-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/1025-divisor-game/) | Easy |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0164-maximum-gap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0164-maximum-gap/) | Medium |
+## Radix Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0164-maximum-gap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0164-maximum-gap/) | Medium |
 <!---LeetCode Topics End-->
