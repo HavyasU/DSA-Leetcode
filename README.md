@@ -114,6 +114,7 @@ java Solution
 | [1189-maximum-number-of-balloons](https://github.com/HavyasU/DSA-Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
+| [1657-determine-if-two-strings-are-close](https://github.com/HavyasU/DSA-Leetcode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/HavyasU/DSA-Leetcode/tree/main/1832-check-if-the-sentence-is-pangram/) | Easy |
@@ -165,6 +166,7 @@ java Solution
 | [1189-maximum-number-of-balloons](https://github.com/HavyasU/DSA-Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/HavyasU/DSA-Leetcode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1598-crawler-log-folder](https://github.com/HavyasU/DSA-Leetcode/tree/main/1598-crawler-log-folder/) | Easy |
+| [1657-determine-if-two-strings-are-close](https://github.com/HavyasU/DSA-Leetcode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1763-longest-nice-substring](https://github.com/HavyasU/DSA-Leetcode/tree/main/1763-longest-nice-substring/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/HavyasU/DSA-Leetcode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1773-count-items-matching-a-rule](https://github.com/HavyasU/DSA-Leetcode/tree/main/1773-count-items-matching-a-rule/) | Easy |
@@ -371,6 +373,7 @@ java Solution
 | [0414-third-maximum-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
+| [1657-determine-if-two-strings-are-close](https://github.com/HavyasU/DSA-Leetcode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/HavyasU/DSA-Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/HavyasU/DSA-Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
@@ -482,6 +485,7 @@ java Solution
 | [0884-uncommon-words-from-two-sentences](https://github.com/HavyasU/DSA-Leetcode/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/HavyasU/DSA-Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
+| [1657-determine-if-two-strings-are-close](https://github.com/HavyasU/DSA-Leetcode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1748-sum-of-unique-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/1748-sum-of-unique-elements/) | Easy |
 | [2347-best-poker-hand](https://github.com/HavyasU/DSA-Leetcode/tree/main/2347-best-poker-hand/) | Easy |
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
