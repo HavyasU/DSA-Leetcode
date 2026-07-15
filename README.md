@@ -423,6 +423,7 @@ java Solution
 | [3370-smallest-number-with-all-set-bits](https://github.com/HavyasU/DSA-Leetcode/tree/main/3370-smallest-number-with-all-set-bits/) | Easy |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/3512-minimum-operations-to-make-array-sum-divisible-by-k/) | Easy |
 | [3516-find-closest-person](https://github.com/HavyasU/DSA-Leetcode/tree/main/3516-find-closest-person/) | Easy |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/HavyasU/DSA-Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
@@ -590,6 +591,7 @@ java Solution
 | ------- | ------- |
 | [0866-prime-palindrome](https://github.com/HavyasU/DSA-Leetcode/tree/main/0866-prime-palindrome/) | Medium |
 | [2413-smallest-even-multiple](https://github.com/HavyasU/DSA-Leetcode/tree/main/2413-smallest-even-multiple/) | Easy |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/HavyasU/DSA-Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 ## Brainteaser
 | Problem Name | Difficulty |
 | ------- | ------- |
