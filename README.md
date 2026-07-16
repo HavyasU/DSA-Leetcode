@@ -206,6 +206,7 @@ java Solution
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/HavyasU/DSA-Leetcode/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/HavyasU/DSA-Leetcode/tree/main/0031-next-permutation/) | Medium |
+| [0033-search-in-rotated-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/HavyasU/DSA-Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0041-first-missing-positive](https://github.com/HavyasU/DSA-Leetcode/tree/main/0041-first-missing-positive/) | Hard |
@@ -339,6 +340,7 @@ java Solution
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/HavyasU/DSA-Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/HavyasU/DSA-Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
