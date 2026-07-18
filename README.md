@@ -108,6 +108,7 @@ java Solution
 | [0706-design-hashmap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0706-design-hashmap/) | Easy |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
+| [0804-unique-morse-code-words](https://github.com/HavyasU/DSA-Leetcode/tree/main/0804-unique-morse-code-words/) | Easy |
 | [0884-uncommon-words-from-two-sentences](https://github.com/HavyasU/DSA-Leetcode/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0961-n-repeated-element-in-size-2n-array/) | Easy |
 | [0997-find-the-town-judge](https://github.com/HavyasU/DSA-Leetcode/tree/main/0997-find-the-town-judge/) | Easy |
@@ -157,6 +158,7 @@ java Solution
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
 | [0771-jewels-and-stones](https://github.com/HavyasU/DSA-Leetcode/tree/main/0771-jewels-and-stones/) | Easy |
 | [0796-rotate-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0796-rotate-string/) | Easy |
+| [0804-unique-morse-code-words](https://github.com/HavyasU/DSA-Leetcode/tree/main/0804-unique-morse-code-words/) | Easy |
 | [0806-number-of-lines-to-write-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0806-number-of-lines-to-write-string/) | Easy |
 | [0821-shortest-distance-to-a-character](https://github.com/HavyasU/DSA-Leetcode/tree/main/0821-shortest-distance-to-a-character/) | Easy |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
@@ -255,6 +257,7 @@ java Solution
 | [0724-find-pivot-index](https://github.com/HavyasU/DSA-Leetcode/tree/main/0724-find-pivot-index/) | Easy |
 | [0739-daily-temperatures](https://github.com/HavyasU/DSA-Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
+| [0804-unique-morse-code-words](https://github.com/HavyasU/DSA-Leetcode/tree/main/0804-unique-morse-code-words/) | Easy |
 | [0806-number-of-lines-to-write-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/0806-number-of-lines-to-write-string/) | Easy |
 | [0821-shortest-distance-to-a-character](https://github.com/HavyasU/DSA-Leetcode/tree/main/0821-shortest-distance-to-a-character/) | Easy |
 | [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
