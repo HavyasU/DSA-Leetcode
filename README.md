@@ -186,6 +186,7 @@ java Solution
 | [2833-furthest-point-from-origin](https://github.com/HavyasU/DSA-Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
+| [3498-reverse-degree-of-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3798-largest-even-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/3798-largest-even-number/) | Easy |
 | [3856-trim-trailing-vowels](https://github.com/HavyasU/DSA-Leetcode/tree/main/3856-trim-trailing-vowels/) | Easy |
@@ -560,6 +561,7 @@ java Solution
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2500-delete-greatest-value-in-each-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
+| [3498-reverse-degree-of-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3701-compute-alternating-sum](https://github.com/HavyasU/DSA-Leetcode/tree/main/3701-compute-alternating-sum/) | Easy |
 ## Matrix
