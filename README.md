@@ -104,6 +104,7 @@ java Solution
 | [0500-keyboard-row](https://github.com/HavyasU/DSA-Leetcode/tree/main/0500-keyboard-row/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/HavyasU/DSA-Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0575-distribute-candies](https://github.com/HavyasU/DSA-Leetcode/tree/main/0575-distribute-candies/) | Easy |
+| [0697-degree-of-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0697-degree-of-an-array/) | Easy |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0706-design-hashmap/) | Easy |
 | [0748-shortest-completing-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/0748-shortest-completing-word/) | Easy |
@@ -252,6 +253,7 @@ java Solution
 | [0605-can-place-flowers](https://github.com/HavyasU/DSA-Leetcode/tree/main/0605-can-place-flowers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
+| [0697-degree-of-an-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/0697-degree-of-an-array/) | Easy |
 | [0704-binary-search](https://github.com/HavyasU/DSA-Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0705-design-hashset](https://github.com/HavyasU/DSA-Leetcode/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0706-design-hashmap/) | Easy |
