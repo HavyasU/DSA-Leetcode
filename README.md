@@ -343,6 +343,7 @@ java Solution
 | [0881-boats-to-save-people](https://github.com/HavyasU/DSA-Leetcode/tree/main/0881-boats-to-save-people/) | Medium |
 | [0917-reverse-only-letters](https://github.com/HavyasU/DSA-Leetcode/tree/main/0917-reverse-only-letters/) | Easy |
 | [0942-di-string-match](https://github.com/HavyasU/DSA-Leetcode/tree/main/0942-di-string-match/) | Easy |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/HavyasU/DSA-Leetcode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
@@ -600,6 +601,7 @@ java Solution
 | [0706-design-hashmap](https://github.com/HavyasU/DSA-Leetcode/tree/main/0706-design-hashmap/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/HavyasU/DSA-Leetcode/tree/main/1290-convert-binary-number-in-a-linked-list-to-integer/) | Easy |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/1721-swapping-nodes-in-a-linked-list/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Hash Function
 | Problem Name | Difficulty |
