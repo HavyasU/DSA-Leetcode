@@ -272,6 +272,7 @@ java Solution
 | [0997-find-the-town-judge](https://github.com/HavyasU/DSA-Leetcode/tree/main/0997-find-the-town-judge/) | Easy |
 | [1046-last-stone-weight](https://github.com/HavyasU/DSA-Leetcode/tree/main/1046-last-stone-weight/) | Easy |
 | [1207-unique-number-of-occurrences](https://github.com/HavyasU/DSA-Leetcode/tree/main/1207-unique-number-of-occurrences/) | Easy |
+| [1260-shift-2d-grid](https://github.com/HavyasU/DSA-Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/HavyasU/DSA-Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1512-number-of-good-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/1512-number-of-good-pairs/) | Easy |
@@ -565,6 +566,7 @@ java Solution
 | [0682-baseball-game](https://github.com/HavyasU/DSA-Leetcode/tree/main/0682-baseball-game/) | Easy |
 | [0735-asteroid-collision](https://github.com/HavyasU/DSA-Leetcode/tree/main/0735-asteroid-collision/) | Medium |
 | [0844-backspace-string-compare](https://github.com/HavyasU/DSA-Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
+| [1260-shift-2d-grid](https://github.com/HavyasU/DSA-Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1945-sum-of-digits-of-string-after-convert](https://github.com/HavyasU/DSA-Leetcode/tree/main/1945-sum-of-digits-of-string-after-convert/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2177-find-three-consecutive-integers-that-sum-to-a-given-number/) | Medium |
@@ -581,6 +583,7 @@ java Solution
 | [0048-rotate-image](https://github.com/HavyasU/DSA-Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/HavyasU/DSA-Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/HavyasU/DSA-Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [1260-shift-2d-grid](https://github.com/HavyasU/DSA-Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/HavyasU/DSA-Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
