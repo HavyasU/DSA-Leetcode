@@ -128,6 +128,7 @@ java Solution
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/HavyasU/DSA-Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [2716-minimize-string-length](https://github.com/HavyasU/DSA-Leetcode/tree/main/2716-minimize-string-length/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/HavyasU/DSA-Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2869-minimum-operations-to-collect-elements](https://github.com/HavyasU/DSA-Leetcode/tree/main/2869-minimum-operations-to-collect-elements/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
@@ -185,6 +186,7 @@ java Solution
 | [2351-first-letter-to-appear-twice](https://github.com/HavyasU/DSA-Leetcode/tree/main/2351-first-letter-to-appear-twice/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2716-minimize-string-length](https://github.com/HavyasU/DSA-Leetcode/tree/main/2716-minimize-string-length/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/HavyasU/DSA-Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3120-count-the-number-of-special-characters-i](https://github.com/HavyasU/DSA-Leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/HavyasU/DSA-Leetcode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
