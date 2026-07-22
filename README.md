@@ -688,12 +688,14 @@ java Solution
 | [0094-binary-tree-inorder-traversal](https://github.com/HavyasU/DSA-Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/HavyasU/DSA-Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/HavyasU/DSA-Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/HavyasU/DSA-Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [1042-flower-planting-with-no-adjacent](https://github.com/HavyasU/DSA-Leetcode/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -701,6 +703,7 @@ java Solution
 | [0094-binary-tree-inorder-traversal](https://github.com/HavyasU/DSA-Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0098-validate-binary-search-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/HavyasU/DSA-Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/HavyasU/DSA-Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
