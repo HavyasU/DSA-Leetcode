@@ -296,6 +296,7 @@ java Solution
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/HavyasU/DSA-Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/HavyasU/DSA-Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/HavyasU/DSA-Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2347-best-poker-hand](https://github.com/HavyasU/DSA-Leetcode/tree/main/2347-best-poker-hand/) | Easy |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
@@ -357,6 +358,7 @@ java Solution
 | [1861-rotating-the-box](https://github.com/HavyasU/DSA-Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [2000-reverse-prefix-of-word](https://github.com/HavyasU/DSA-Leetcode/tree/main/2000-reverse-prefix-of-word/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HavyasU/DSA-Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
+| [2161-partition-array-according-to-given-pivot](https://github.com/HavyasU/DSA-Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2396-strictly-palindromic-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2396-strictly-palindromic-number/) | Medium |
 | [2540-minimum-common-value](https://github.com/HavyasU/DSA-Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3794-reverse-string-prefix](https://github.com/HavyasU/DSA-Leetcode/tree/main/3794-reverse-string-prefix/) | Easy |
@@ -580,6 +582,7 @@ java Solution
 | [1260-shift-2d-grid](https://github.com/HavyasU/DSA-Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1945-sum-of-digits-of-string-after-convert](https://github.com/HavyasU/DSA-Leetcode/tree/main/1945-sum-of-digits-of-string-after-convert/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/HavyasU/DSA-Leetcode/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/HavyasU/DSA-Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/HavyasU/DSA-Leetcode/tree/main/2177-find-three-consecutive-integers-that-sum-to-a-given-number/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/HavyasU/DSA-Leetcode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/HavyasU/DSA-Leetcode/tree/main/2390-removing-stars-from-a-string/) | Medium |
